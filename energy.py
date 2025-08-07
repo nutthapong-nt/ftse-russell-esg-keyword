@@ -1,6 +1,6 @@
 BIODIVERSITY = []
 CLIMATE_CHANGE = [
-    "ประสิทธิภาพมากขึ้น|efficiency"
+    "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ"
 ]
 POLLUTION_RESOURCES = []
 WATER_SECURITY = []
@@ -18,6 +18,7 @@ CUSTOMER_RESPONSIBILITY = [
     "PM 2.5",
     "Zero Waste",
     "รีไซเคิลน้ำ|รีไซเคิล",
+    "ความเสถียร"
 ]
 HEALTH_SAFETY = [
     "ระบบการจัดการฝุ่น",
