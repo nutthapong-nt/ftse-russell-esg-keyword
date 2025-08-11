@@ -1,9 +1,6 @@
-BIODIVERSITY = []
 CLIMATE_CHANGE = [
     "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ"
 ]
-POLLUTION_RESOURCES = []
-WATER_SECURITY = []
 CUSTOMER_RESPONSIBILITY = [
     "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|เน็ตซีโร่|เน็ต zero|net zero",
     "บริหารจัดการคาร์บอน|คาร์บอนฟุตปริ้น|การบริหาร co2",
@@ -14,15 +11,6 @@ CUSTOMER_RESPONSIBILITY = [
     "รีไซเคิลน้ำ|รีไซเคิล",
     "เสถียรภาพของระบบไฟฟ้า|ความเสถียร|ความมั่นคง"
 ]
-HEALTH_SAFETY = [
-    "ระบบการจัดการฝุ่น",
-]
-HUMAN_RIGHTS_COMMUNITY = []
-LABOR_STANDARD = []
-ANTI_CORRUPTION = []
-CORPORATE_GOVERNANCE = []
-RISK_MANAGEMENT = []
-TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
     "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|เน็ตซีโร่|เน็ต zero|net zero",
     "บริหารจัดการคาร์บอน|คาร์บอนฟุตปริ้น|การบริหาร co2",

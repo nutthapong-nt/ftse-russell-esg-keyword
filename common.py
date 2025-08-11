@@ -28,6 +28,7 @@ CLIMATE_CHANGE = [
     "เป็นมิตรต่อสิ่งแวดล้อม",
     "ยานยนต์ไฟฟ้า",
     "Green transition|Green Project",
+    "Green financing",
 ]
 POLLUTION_RESOURCES = [
     "สิ่งแวดล้อม",
@@ -64,9 +65,13 @@ CUSTOMER_RESPONSIBILITY = [
     "สัญญา",
     "quality ที่ดี",
     "customer centric",
-    "customer experience"
+    "เป็นธรรมกับลูกค้า",
+    "customer experience",
 ]
-HEALTH_SAFETY = ["Zero Accident","ระบบการจัดการฝุ่น",]
+HEALTH_SAFETY = [
+    "Zero Accident",
+    "ระบบการจัดการฝุ่น",
+]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
     "ชุมชน",
@@ -75,19 +80,21 @@ HUMAN_RIGHTS_COMMUNITY = [
     "สังคม",
     "การสร้างความสัมพันธ์",
     "สิทธิมนุษยชน",
+    "หนี้ครัวเรือน",
 ]
 LABOR_STANDARD = [
     "การจ้างงาน",
     "สร้างรายได้ให้เกษตรกร",
     "เลเบอร์ management|ด้านบุคลาก|ทรัพยากรบุคคลร",
     "ผลประโยชน์พนักงาน",
-    "training|ฝึกฝน"
+    "training|ฝึกฝน",
+    "จำนวนพนักงาน",
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
-    "",
     "ทุจริตคอรัปชั่น",
     "คอรัปชั่น",
+    "ธรรมาภิบาล",
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -99,7 +106,9 @@ CORPORATE_GOVERNANCE = [
     "เป้าหมาย|กลยุทธ์",
     "คุณค่าในระยะยาว",
     "q&a|คำถาม",
-    "commitment"
+    "commitment",
+    "ธรรมาภิบาล",
+    "โฆษณาตัวเอง",
 ]
 RISK_MANAGEMENT = [
     "การบริหารความเสี่ยง|risk management",
@@ -114,7 +123,9 @@ RISK_MANAGEMENT = [
     "Country risk",
     "เตรียมตัว|เตรียมพร้อม|แผนรองรับ|วางแผน|แผนรับมือ|planning",
     "ลดผลกระทบ",
-    "monitoring"
+    "monitoring",
+    "การจัดการหนี้เสีย",
+    "ประเมินความเสี่ยง",
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
@@ -126,10 +137,13 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     "ตัดไม้ทำลายป่า|deforestation ฟรี|deforestation free",
     "คาร์บอนซัพพลายเชน",
     "sustainable materials",
+    "Green financing",
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
     "การจ้างงาน",
     "พัฒนาเกษตรกร",
-    "ช่วยเกษตรกร"
+    "ช่วยเกษตรกร",
+    "SME",
+    "หนี้ครัวเรือน",
 ]
