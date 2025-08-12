@@ -1,3 +1,6 @@
+MAINTAIN_HEALTH = "รักษาสุขภาพ|เพื่อสุขภาพ"
+
+
 BIODIVERSITY = [
     "ความหลากหลายทางชีวภาพ",
     "ปลูกป่า",
@@ -29,6 +32,7 @@ CLIMATE_CHANGE = [
     "ยานยนต์ไฟฟ้า",
     "Green transition|Green Project",
     "Green financing",
+    "ภาวะโลกร้อน",
 ]
 POLLUTION_RESOURCES = [
     "สิ่งแวดล้อม",
@@ -41,7 +45,7 @@ POLLUTION_RESOURCES = [
     "เป็นมิตรต่อสิ่งแวดล้อม",
     "organic waste|ออร์แกนิคเวสต์",
     "zero waste",
-    "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ|optimizing",
+    "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ|optimizing|ประสิทธิภาพสูงสุด",
     "space management",
     "maximize resource|maximize utilization",
 ]
@@ -67,11 +71,9 @@ CUSTOMER_RESPONSIBILITY = [
     "customer centric",
     "เป็นธรรมกับลูกค้า",
     "customer experience",
+    MAINTAIN_HEALTH,
 ]
-HEALTH_SAFETY = [
-    "Zero Accident",
-    "ระบบการจัดการฝุ่น",
-]
+HEALTH_SAFETY = ["Zero Accident", "ระบบการจัดการฝุ่น", MAINTAIN_HEALTH]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
     "ชุมชน",
@@ -83,12 +85,15 @@ HUMAN_RIGHTS_COMMUNITY = [
     "หนี้ครัวเรือน",
 ]
 LABOR_STANDARD = [
-    "การจ้างงาน",
+    "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
     "สร้างรายได้ให้เกษตรกร",
     "เลเบอร์ management|ด้านบุคลาก|ทรัพยากรบุคคลร",
     "ผลประโยชน์พนักงาน",
     "training|ฝึกฝน",
     "จำนวนพนักงาน",
+    "ค่าแรงขั้นต่ำ",
+    "อินเซนทีฟ",
+    MAINTAIN_HEALTH,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
@@ -113,7 +118,7 @@ CORPORATE_GOVERNANCE = [
 RISK_MANAGEMENT = [
     "การบริหารความเสี่ยง|risk management",
     "กระจายความเสี่ยง|การกระจายตัวของโครงการ|กระจายพอร์ตการลงทุน",
-    "m&a|synergy|พันธมิตร|ความร่วมมือ",
+    "m&a|synergy|พันธมิตร|ความร่วมมือ|ควบรวมกิจการ",
     "อัตราแลกเปลี่ยน",
     "กระแสเงินสด|Cash on Hand|เงินสด",
     "Cost management|Cos management",
@@ -146,4 +151,6 @@ SUPPLY_CHAIN_SOCIAL = [
     "ช่วยเกษตรกร",
     "SME",
     "หนี้ครัวเรือน",
+    "OTOP",
+    "พันธมิตรรอบๆข้าง",
 ]
