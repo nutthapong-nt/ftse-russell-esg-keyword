@@ -1,5 +1,5 @@
 MAINTAIN_HEALTH = "รักษาสุขภาพ|เพื่อสุขภาพ"
-
+RECYCLE = "รีไซเคิล|recycle"
 
 BIODIVERSITY = [
     "ความหลากหลายทางชีวภาพ",
@@ -33,6 +33,7 @@ CLIMATE_CHANGE = [
     "Green transition|Green Project",
     "Green financing",
     "ภาวะโลกร้อน",
+    RECYCLE,
 ]
 POLLUTION_RESOURCES = [
     "สิ่งแวดล้อม",
@@ -48,11 +49,12 @@ POLLUTION_RESOURCES = [
     "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ|optimizing|ประสิทธิภาพสูงสุด",
     "space management",
     "maximize resource|maximize utilization",
+    RECYCLE,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
     "แหล่งน้ำธรรมชาติ",
-    "รีไซเคิลน้ำ|รีไซเคิล",
+    "รีไซเคิลน้ำ",
     "น้ำสะอาด",
     "น้ำท่วม",
     "ปริมาณน้ำ",
@@ -68,9 +70,11 @@ CUSTOMER_RESPONSIBILITY = [
     "มาตรฐาน",
     "สัญญา",
     "quality ที่ดี",
-    "customer centric",
+    "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
-    "customer experience",
+    "customer experience|experience ของลูกค้า|customer journey",
+    "พิถีพิถันในการผลิต",
+    "สินค้าที่เป็น defect",
     MAINTAIN_HEALTH,
 ]
 HEALTH_SAFETY = ["Zero Accident", "ระบบการจัดการฝุ่น", MAINTAIN_HEALTH]
