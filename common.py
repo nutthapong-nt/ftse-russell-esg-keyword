@@ -1,5 +1,10 @@
 MAINTAIN_HEALTH = "รักษาสุขภาพ|เพื่อสุขภาพ"
-RECYCLE = "รีไซเคิล|recycle"
+RECYCLE = "รีไซเคิล|recycle|recycling|ขึ้นรูปใหม่|เอากลับมาใช้"
+REDUCE = "reduce|ลดการใช้พลาสติก|ลดน้ำหนักของพลาสติก|ลดการใช้โพลิเมอร์"
+GREEN_PRODUCT = "สินค้ายั่งยืน|sustainable product|green polymer|กรีนโปรดักส์|green transition|green project|green solution"
+BIOSYNTHESIS = "biosynthesis"
+ALTERNATIVE_FUEL = "พลังงานชีวภาพ|biomass|ไบโอแมส|ชีวมวล|ไบโอดีเซล|ไบโอแก๊ส|แก๊สชีวภาพ|biogas|ไบโอเพาเวอร์|เชื้อเพลิงทางเลือก"
+LOW_CARBON = "ลดคาร์บอน|ดีคาร์บอน|คาร์บอนต่ำ|คาร์บอนฟรี|low carbon|โลคาร์บอน"
 
 BIODIVERSITY = [
     "ความหลากหลายทางชีวภาพ",
@@ -16,7 +21,7 @@ CLIMATE_CHANGE = [
     "การปล่อยคาร์บอน|การปลดปล่อยก๊าซธรรมชาติ|ปล่อยก๊าซเรือนกระจก",
     "ลดการปลดปล่อย",
     "ลดการเผา",
-    "ลดคาร์บอน|ดีคาร์บอน|คาร์บอนต่ำ|คาร์บอนฟรี",
+    LOW_CARBON,
     "PM 2.5",
     "พลังงานสะอาด|Clean Energy|พลังงานสีเขียว",
     "พลังงานหมุนเวียน|renewable|พลังงานที่ยั่งยืน|พลังงานทดแทน",
@@ -26,14 +31,16 @@ CLIMATE_CHANGE = [
     "โซล่าเซลล์|ไฟฟ้าแสงอาทิตย์|solar|โซล่า|พลังงานแสงอาทิตย์",
     "พลังงานความร้อนร่วม|โรงไฟฟ้า thermal",
     "คาร์บอน Capture|inject Co2|Co2 injection|Carbon Capture",
-    "พลังงานชีวภาพ|biomass|ไบโอแมส|ชีวมวล|ไบโอดีเซล|ไบโอแก๊ส|แก๊สชีวภาพ|biogas|ไบโอเพาเวอร์",
+    ALTERNATIVE_FUEL,
     "โรงไฟฟ้าขยะ",
     "เป็นมิตรต่อสิ่งแวดล้อม",
     "ยานยนต์ไฟฟ้า",
-    "Green transition|Green Project",
-    "Green financing",
+    "green financing",
     "ภาวะโลกร้อน",
+    GREEN_PRODUCT,
     RECYCLE,
+    REDUCE,
+    BIOSYNTHESIS,
 ]
 POLLUTION_RESOURCES = [
     "สิ่งแวดล้อม",
@@ -42,14 +49,17 @@ POLLUTION_RESOURCES = [
     "กระบวนการกรอง",
     "ระบบการจัดการฝุ่น",
     "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
-    "ของเหลือใช้|วัสดุเหลือใช้ทางการเกษตร",
+    "ของเหลือใช้|วัสดุเหลือใช้",
     "เป็นมิตรต่อสิ่งแวดล้อม",
     "organic waste|ออร์แกนิคเวสต์",
     "zero waste",
     "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ|optimizing|ประสิทธิภาพสูงสุด",
     "space management",
     "maximize resource|maximize utilization",
+    GREEN_PRODUCT,
     RECYCLE,
+    REDUCE,
+    BIOSYNTHESIS,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -64,7 +74,8 @@ CUSTOMER_RESPONSIBILITY = [
     "ความยั่งยืน",
     "ธุรกิจที่ยั่งยืน",
     "ประหยัด",
-    "การันตี|การรับประกัน|warranty|QC",
+    "การันตี|การรับประกัน|warranty",
+    "ควบคุมคุณภาพ|QC",
     "maximize value",
     "คุณค่าในระยะยาว",
     "มาตรฐาน",
@@ -138,11 +149,12 @@ RISK_MANAGEMENT = [
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
-    "วัสดุเหลือใช้ทางการเกษตร",
-    "ของเหลือใช้",
+    "วัสดุเหลือใช้ทางการเกษตร|วัสดุทางการเกษตร",
+    "ของเหลือใช้|วัสดุเหลือใช้",
     "ขาดแคลนวัตถุดิบ",
     "ecosystem",
-    "Green transition|Green Project",
+    GREEN_PRODUCT,
+    LOW_CARBON,
     "ตัดไม้ทำลายป่า|deforestation ฟรี|deforestation free",
     "คาร์บอนซัพพลายเชน",
     "sustainable materials",
@@ -150,11 +162,15 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
-    "การจ้างงาน",
+    "การจ้างงาน|ให้อาชีพ",
     "พัฒนาเกษตรกร",
     "ช่วยเกษตรกร",
     "SME",
     "หนี้ครัวเรือน",
     "OTOP",
     "พันธมิตรรอบๆข้าง",
+    "community product",
+    'ปรับปรุงของ supplier|ปรับปรุง supplier',
+    "ต้นทุนของ supplier",
+    "win win situation"
 ]
