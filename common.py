@@ -1,47 +1,87 @@
-MAINTAIN_HEALTH = "รักษาสุขภาพ|เพื่อสุขภาพ"
+HEALTHY = "รักษาสุขภาพ|เพื่อสุขภาพ|สุขภาพดี"
 RECYCLE = "รีไซเคิล|recycle|recycling|ขึ้นรูปใหม่|เอากลับมาใช้"
 REDUCE = "reduce|ลดการใช้พลาสติก|ลดน้ำหนักของพลาสติก|ลดการใช้โพลิเมอร์|ลดการใช้ตัวพลาสติก"
 GREEN_PRODUCT = "สินค้ายั่งยืน|sustainable product|green polymer|กรีนโปรดักส์|green transition|green project|green solution"
+GREEN_PRODUCTION = "อุตสาหกรรมสีเขียว"
 BIOSYNTHESIS = "biosynthesis"
-ALTERNATIVE_FUEL = "พลังงานชีวภาพ|biomass|ไบโอแมส|ชีวมวล|ไบโอดีเซล|ไบโอแก๊ส|แก๊สชีวภาพ|biogas|ไบโอเพาเวอร์|เชื้อเพลิงทางเลือก"
+ALTERNATIVE_FUEL = "พลังงานชีวภาพ|biomass|ไบโอแมส|ชีวมวล|ไบโอดีเซล|ไบโอแก๊ส|แก๊สชีวภาพ|biogas|ไบโอเพาเวอร์|เชื้อเพลิงทางเลือก|เชื้อเพลิงสีเขียว|กรีนไฮโดรเจน|ไฮโดรเจนสีเขียว"
 LOW_CARBON = "ลดคาร์บอน|ดีคาร์บอน|คาร์บอนต่ำ|คาร์บอนฟรี|low carbon|โลคาร์บอน"
+RESPONSIBILITY = "ความรับผิดชอบ|responsibility"
+RESPONSIBILITY_INVESTMENT = "การลงทุนที่มีความรับผิดชอบ"
+CLEAN_ENERGY = "พลังงานสะอาด|Clean Energy|พลังงานสีเขียว"
+RENEWABLE_ENERGY = "พลังงานหมุนเวียน|renewable|พลังงานที่ยั่งยืน|พลังงานทดแทน|พลังงานทางเลือก"
+SOLAR_ENERGY = "โซล่าเซลล์|ไฟฟ้าแสงอาทิตย์|solar|โซล่า|พลังงานแสงอาทิตย์"
+WIND_ENERGY = "พลังงานลม|กังหันลม|Wind"
+CARBON_NEUTRALITY = "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green"
+ENV_FRIENDLY = "เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
+POLUTION = "มลพิษ"
+GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|ก๊าซเรือนกระจก"
+EMPLOYEE = "พนักงาน"
+TRAINING = "อบรม|เทรนนิ่ง|สร้างคน"
+KNOWLEDGE = "ความรู้|ความเข้าใจ"
+PREPARE = "เตรียมพร้อม|เตรียมตัว"
+HONEST = "ความจริงใจ|ซื่อสัตย์"
+TRUST = "ไว้ใจ"
+SAFETY = "ปลอดภัย"
+CUSTOMER_NEED = "ความต้องการของลูกค้า"
+REDUCE_CHEMICAL = "ลดการใช้สารเคมี"
+CORAL = "ปะการัง"
+LANDFILLING = "ฝังกลบ"
+AFFOREST = "ปลูกต้นไม้|ปลูกป่า"
+CONSERVE = "อนุรักษ์"
+RESTORATION = "ฟื้นฟู"
+TRASH = "ขยะ"
+NATURAL = "Natural|ของธรรมชาติ"
+TOXIC = "เป็นพิษ"
+CFC = "cfc|r12|r22"
+ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
 
 BIODIVERSITY = [
     "ความหลากหลายทางชีวภาพ",
-    "ปลูกป่า",
+    AFFOREST,
+    RESTORATION,
     "ป่าไม้",
     "ป่าชายเลน",
     "ไบโอไดเวอร์ซิตี้",
     "ตัดไม้ทำลายป่า",
+    CORAL,
+    ENV_FRIENDLY,
+    LANDFILLING,
+    CONSERVE,
+    TOXIC
 ]
 CLIMATE_CHANGE = [
     "ประสิทธิภาพการใช้พลังงาน",
-    "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green",
+    CARBON_NEUTRALITY,
     "คาร์บอนเครดิต",
     "บริหารจัดการคาร์บอน|คาร์บอนฟุตปริ้น|การบริหาร co2",
-    "การปล่อยคาร์บอน|การปลดปล่อยก๊าซธรรมชาติ|ปล่อยก๊าซเรือนกระจก",
+    GREENHOUSE_GAS,
+    CFC,
     "ลดการปลดปล่อย",
     "ลดการเผา",
     LOW_CARBON,
     "PM 2.5",
-    "พลังงานสะอาด|Clean Energy|พลังงานสีเขียว",
-    "พลังงานหมุนเวียน|renewable|พลังงานที่ยั่งยืน|พลังงานทดแทน|พลังงานทางเลือก",
+    CLEAN_ENERGY,
+    RENEWABLE_ENERGY,
     "New Energy|พลังงานใหม่|พลังงานรูปแบบใหม่",
-    "พลังงานลม|กังหันลม|Wind",
-    "เชื้อเพลิงสีเขียว|กรีนไฮโดรเจน|ไฮโดรเจนสีเขียว",
-    "โซล่าเซลล์|ไฟฟ้าแสงอาทิตย์|solar|โซล่า|พลังงานแสงอาทิตย์",
+    WIND_ENERGY,
+    SOLAR_ENERGY,
     "พลังงานความร้อนร่วม|โรงไฟฟ้า thermal",
     "คาร์บอน capture|inject co2|co2 injection|carbon capture",
     ALTERNATIVE_FUEL,
     "โรงไฟฟ้าขยะ",
-    "เป็นมิตรต่อสิ่งแวดล้อม",
+    "รักษาสิ่งแวดล้อม",
+    ENV_FRIENDLY,
     "ยานยนต์ไฟฟ้า",
     "green financing",
     "ภาวะโลกร้อน",
     GREEN_PRODUCT,
+    GREEN_PRODUCTION,
     RECYCLE,
     REDUCE,
     BIOSYNTHESIS,
+    "climate action",
+    ATMOSPHERE
 ]
 POLLUTION_RESOURCES = [
     "ประสิทธิภาพการใช้พลังงาน",
@@ -52,16 +92,29 @@ POLLUTION_RESOURCES = [
     "ระบบการจัดการฝุ่น",
     "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
     "ของเหลือใช้|วัสดุเหลือใช้",
-    "เป็นมิตรต่อสิ่งแวดล้อม",
+    "รักษาสิ่งแวดล้อม",
+    ENV_FRIENDLY,
     "organic waste|ออร์แกนิคเวสต์",
     "zero waste",
     "ประสิทธิภาพมากขึ้น|efficiency|ปรับปรุงประสิทธิภาพ|optimizing|ประสิทธิภาพสูงสุด",
     "space management",
     "maximize resource|maximize utilization",
     GREEN_PRODUCT,
+    GREEN_PRODUCTION,
     RECYCLE,
     REDUCE,
     BIOSYNTHESIS,
+    CLEAN_ENERGY,
+    POLUTION,
+    GREENHOUSE_GAS,
+    CFC,
+    REDUCE_CHEMICAL,
+    CORAL,
+    LANDFILLING,
+    TRASH,
+    NATURAL,
+    TOXIC,
+    ATMOSPHERE
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -71,6 +124,8 @@ WATER_SECURITY = [
     "น้ำท่วม",
     "ปริมาณน้ำ",
     "ฝนหยุด",
+    "ประหยัดการใช้น้ำ",
+    TOXIC
 ]
 CUSTOMER_RESPONSIBILITY = [
     "ความยั่งยืน",
@@ -82,15 +137,24 @@ CUSTOMER_RESPONSIBILITY = [
     "คุณค่าในระยะยาว",
     "มาตรฐาน",
     "สัญญา",
-    "quality ที่ดี",
+    "สินค้าดี|quality ที่ดี|บริการที่ดี",
     "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
     "customer experience|experience ของลูกค้า|customer journey",
     "พิถีพิถันในการผลิต",
     "สินค้าที่เป็น defect",
-    MAINTAIN_HEALTH,
+    "ดูแลคอยเยียวยา",
+    "ดูแลผู้บริโภค",
+    CUSTOMER_NEED,
+    HEALTHY,
+    RESPONSIBILITY,
+    RESPONSIBILITY_INVESTMENT,
+    HONEST,
+    TRAINING,
+    TRUST,
+    REDUCE_CHEMICAL,
 ]
-HEALTH_SAFETY = ["Zero Accident", "ระบบการจัดการฝุ่น", MAINTAIN_HEALTH]
+HEALTH_SAFETY = ["Zero Accident", "ระบบการจัดการฝุ่น", HEALTHY, TRAINING, SAFETY,TOXIC]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
     "ชุมชน",
@@ -111,8 +175,11 @@ LABOR_STANDARD = [
     "จำนวนพนักงาน",
     "ค่าแรงขั้นต่ำ",
     "อินเซนทีฟ",
-    "อบรมให้กับพนักงาน",
-    MAINTAIN_HEALTH,
+    "อบรมให้กับพนักงาน|เทรนนิ่ง",
+    HEALTHY,
+    EMPLOYEE,
+    TRAINING,
+    KNOWLEDGE,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
@@ -125,6 +192,7 @@ CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
     "เชี่ยวชาญ",
     "ประธานเจ้าหน้าที่บริหาร|กรรมการผู้จัดการใหญ่",
+    "ประธานคณะกรรมการ",
     "CEO",
     "คณะกรรมการบริษัท",
     "ความต้องการของนักลงทุน",
@@ -134,9 +202,16 @@ CORPORATE_GOVERNANCE = [
     "commitment",
     "ธรรมาภิบาล",
     "โฆษณาตัวเอง",
+    RESPONSIBILITY,
+    HONEST,
+    TRUST,
+    "corporate governance",
+    "การเปิดเผยข้อมูล",
+    "วิสัยทัศน์ของผู้บริหาร",
+    "การกำกับกิจการที่ดี",
 ]
 RISK_MANAGEMENT = [
-    "การบริหารความเสี่ยง|risk management",
+    "บริหารความเสี่ยง|risk management",
     "กระจายความเสี่ยง|การกระจายตัวของโครงการ|กระจายพอร์ตการลงทุน",
     "m&a|synergy|พันธมิตร|ความร่วมมือ|ควบรวมกิจการ",
     "อัตราแลกเปลี่ยน",
@@ -146,11 +221,13 @@ RISK_MANAGEMENT = [
     "ป้องกันความเสี่ยง",
     "ประกันความเสี่ยง",
     "Country risk",
-    "เตรียมตัว|เตรียมพร้อม|แผนรองรับ|วางแผน|แผนรับมือ|planning",
+    "แผนรองรับ|วางแผน|แผนรับมือ|planning",
+    PREPARE,
     "ลดผลกระทบ",
     "monitoring",
     "การจัดการหนี้เสีย",
     "ประเมินความเสี่ยง",
+    "วิกฤต",
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
@@ -159,11 +236,20 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     "ขาดแคลนวัตถุดิบ",
     "ecosystem",
     GREEN_PRODUCT,
+    GREEN_PRODUCTION,
     LOW_CARBON,
+    CORAL,
     "ตัดไม้ทำลายป่า|deforestation ฟรี|deforestation free",
     "คาร์บอนซัพพลายเชน",
     "sustainable materials",
     "Green financing",
+    RESPONSIBILITY,
+    GREENHOUSE_GAS,
+    CFC,
+    LANDFILLING,
+    RECYCLE,
+    TOXIC,
+    ATMOSPHERE
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
@@ -182,4 +268,10 @@ SUPPLY_CHAIN_SOCIAL = [
     "พัฒนาเด็กเล็ก",
     "บริจาค",
     "คืนสู่สังคม",
+    "การกุศล",
+    "สังคมดี",
+    RESPONSIBILITY,
+    "คุณค่าทางสังคม",
+    "เด็กนักเรียน",
+    "ส่งเสริมการเกษตร",
 ]
