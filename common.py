@@ -1,6 +1,6 @@
 HEALTHY = "รักษาสุขภาพ|เพื่อสุขภาพ|สุขภาพดี"
 RECYCLE = "รีไซเคิล|recycle|recycling|ขึ้นรูปใหม่|เอากลับมาใช้"
-REDUCE = "reduce|ลดการใช้พลาสติก|ลดน้ำหนักของพลาสติก|ลดการใช้โพลิเมอร์|ลดการใช้ตัวพลาสติก"
+REDUCE = "reduce|ลดการใช้พลาสติก|ลดน้ำหนักพลาสติก|ลดการใช้โพลิเมอร์|ลดการใช้ตัวพลาสติก"
 GREEN_PRODUCT = "สินค้ายั่งยืน|sustainable product|green polymer|กรีนโปรดักส์|green transition|green project|green solution"
 GREEN_PRODUCTION = "อุตสาหกรรมสีเขียว"
 BIOSYNTHESIS = "biosynthesis"
@@ -15,7 +15,7 @@ WIND_ENERGY = "พลังงานลม|กังหันลม|Wind"
 CARBON_NEUTRALITY = "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green"
 ENV_FRIENDLY = "เป็นมิตรกับสิ่งแวดล้อม|เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
 POLUTION = "มลพิษ"
-GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|ก๊าซเรือนกระจก"
+GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก"
 EMPLOYEE = "พนักงาน"
 TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ"
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
@@ -23,26 +23,27 @@ PREPARE = "เตรียมพร้อม|เตรียมตัว"
 HONEST = "ความจริงใจ|ซื่อสัตย์"
 TRUST = "ไว้ใจ"
 SAFETY = "ปลอดภัย"
-CUSTOMER_NEED = "ความต้องการของลูกค้า|customer voice"
+CUSTOMER_NEED = "ความต้องการลูกค้า|customer voice"
 REDUCE_CHEMICAL = "ลดการใช้สารเคมี"
 CORAL = "ปะการัง"
 LANDFILLING = "ฝังกลบ"
-AFFOREST = "ปลูกต้นไม้|ปลูกป่า"
+AFFOREST = "ปลูกต้นไม้|ปลูกป่า|สวนป่า"
 CONSERVE = "อนุรักษ์"
 RESTORATION = "ฟื้นฟู"
 TRASH = "ขยะ"
-NATURAL = "Natural|ของธรรมชาติ"
+CORRECTNESS = "correctness|ความถูกต้อง"
+NATURAL = "Natural|ธรรมชาติ"
 TOXIC = "เป็นพิษ"
 CFC = "cfc|r12|r22"
 ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
 TRANSPARENT = "transparent|ความโปร่งใส"
 QUALITY = "quality|คุณภาพ"
-SOCIETY = "ชุมชน"
+SOCIETY = "ชุมชน|พื้นที่"
 FOOD_SAFETY = "food safety|ความปลอดภัยทางด้านอาหาร|ความปลอดภัยทางอาหาร|ความปลอดภัยอาหาร"
 BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
 PEOPLE_CENTRIC = "People Centric"
-STANDARD = "standard|มาตรฐาน"
+STANDARD = "standard|มาตรฐาน|สแตนดาร์ด"
 EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า"
 POTENTIAL = "ศักยภาพ"
 HARMONIOUS = "สามัคคี|ร่วมมือร่วมใจ|ร่วมแรงร่วมใจ"
@@ -53,20 +54,33 @@ COMPETITIVE = "การแข่งขัน"
 WORKEPLACE_ISSUE = "ปัญหาการทำงาน"
 INFECTIOUS = "infectious|ติดเชื้อ"
 COMPLICATION = "complication|ภาวะแทรกซ้อน"
+PROFESSIONAL = "เชี่ยวชาญ|มืออาชีพ"
+MANGROVE_FOREST = "mangrove forest"
+DEFORESTATION = "deforestation|ตัดไม้ทำลายป่า"
+FOREST = "ป่าไม้"
+VERIFICATION = "verification"
+NURSERY_GROUND = "nursery ground|อนุบาลสัตว์"
+COMMUNITY_FOREST = "community forestry|ป่าชุมชน"
+LAW = "กฎหมาย"
+WORK_STANDARD = "work standard|เวิร์คสแตนดาร์ด"
+PATICIPATE = "มีส่วนร่วม"
+QUALITY_OF_LIFE = "คุณภาพชีวิต"
+FAIR = "ยุติธรรม|เป็นธรรม"
+PAPERLESS = "เปเปอร์เรท"
 
 BIODIVERSITY = [
-    "ความหลากหลายทางชีวภาพ",
+    "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
     AFFOREST,
     RESTORATION,
-    "ป่าไม้",
-    "ป่าชายเลน",
-    "ไบโอไดเวอร์ซิตี้",
-    "ตัดไม้ทำลายป่า",
+    FOREST,
+    MANGROVE_FOREST,
+    DEFORESTATION,
     CORAL,
     ENV_FRIENDLY,
     LANDFILLING,
     CONSERVE,
     TOXIC,
+    NURSERY_GROUND,
 ]
 CLIMATE_CHANGE = [
     EFFICIENT,
@@ -109,7 +123,7 @@ POLLUTION_RESOURCES = [
     "กระบวนการกรอง",
     "ระบบการจัดการฝุ่น",
     "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
-    "ของเหลือใช้|วัสดุเหลือใช้",
+    "เหลือใช้|วัสดุเหลือใช้",
     "รักษาสิ่งแวดล้อม",
     ENV_FRIENDLY,
     "organic waste|ออร์แกนิคเวสต์",
@@ -132,7 +146,8 @@ POLLUTION_RESOURCES = [
     NATURAL,
     TOXIC,
     ATMOSPHERE,
-    INFECTIOUS
+    INFECTIOUS,
+    PAPERLESS,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -147,7 +162,8 @@ WATER_SECURITY = [
     TOXIC,
     SECURITY_MANAGEMENT,
     EFFICIENT,
-    INFECTIOUS
+    INFECTIOUS,
+    MANGROVE_FOREST,
 ]
 CUSTOMER_RESPONSIBILITY = [
     "ความยั่งยืน",
@@ -163,7 +179,7 @@ CUSTOMER_RESPONSIBILITY = [
     "สินค้าดี|quality ที่ดี|บริการที่ดี",
     "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
-    "customer experience|experience ของลูกค้า|customer journey",
+    "customer experience|experience ลูกค้า|customer journey",
     "พิถีพิถันในการผลิต",
     "สินค้าที่เป็น defect",
     "ดูแลคอยเยียวยา",
@@ -178,6 +194,11 @@ CUSTOMER_RESPONSIBILITY = [
     PEOPLE_CENTRIC,
     REDUCE_CHEMICAL,
     IMPRESSED,
+    PROFESSIONAL,
+    VERIFICATION,
+    CORRECTNESS,
+    LAW,
+    FAIR,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -191,7 +212,10 @@ HEALTH_SAFETY = [
     BIO_SECURITY,
     WORKING_ENVIRONMENT,
     WORKEPLACE_ISSUE,
-    INFECTIOUS
+    INFECTIOUS,
+    LAW,
+    WORK_STANDARD,
+    QUALITY_OF_LIFE,
 ]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
@@ -204,6 +228,11 @@ HUMAN_RIGHTS_COMMUNITY = [
     "การสร้างความสัมพันธ์",
     "สิทธิมนุษยชน",
     "หนี้ครัวเรือน",
+    COMMUNITY_FOREST,
+    LAW,
+    PATICIPATE,
+    QUALITY_OF_LIFE,
+    FAIR,
 ]
 LABOR_STANDARD = [
     "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
@@ -226,6 +255,12 @@ LABOR_STANDARD = [
     WORKING_ENVIRONMENT,
     WORKEPLACE_ISSUE,
     POTENTIAL,
+    PROFESSIONAL,
+    CORRECTNESS,
+    LAW,
+    WORK_STANDARD,
+    QUALITY_OF_LIFE,
+    FAIR,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
@@ -233,15 +268,16 @@ ANTI_CORRUPTION = [
     "คอรัปชั่น",
     "ธรรมาภิบาล",
     "โกง",
+    LAW,
+    FAIR,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
-    "เชี่ยวชาญ",
     "ประธานเจ้าหน้าที่บริหาร|กรรมการผู้จัดการใหญ่",
     "ประธานคณะกรรมการ",
     "CEO",
     "คณะกรรมการบริษัท",
-    "ความต้องการของนักลงทุน",
+    "ความต้องการนักลงทุน",
     "เป้าหมาย|กลยุทธ์",
     "คุณค่าในระยะยาว",
     "q&a|คำถาม",
@@ -255,13 +291,17 @@ CORPORATE_GOVERNANCE = [
     HARMONIOUS,
     "corporate governance",
     "การเปิดเผยข้อมูล",
-    "วิสัยทัศน์ของผู้บริหาร",
+    "วิสัยทัศน์ผู้บริหาร",
     "การกำกับกิจการที่ดี",
     "ผิดกฎหมาย",
+    VERIFICATION,
+    CORRECTNESS,
+    LAW,
+    FAIR,
 ]
 RISK_MANAGEMENT = [
     "บริหารความเสี่ยง|risk management",
-    "กระจายความเสี่ยง|การกระจายตัวของโครงการ|กระจายพอร์ตการลงทุน",
+    "กระจายความเสี่ยง|การกระจายตัวโครงการ|กระจายพอร์ตการลงทุน",
     "m&a|synergy|พันธมิตร|ความร่วมมือ|ควบรวมกิจการ|partner",
     "อัตราแลกเปลี่ยน",
     "กระแสเงินสด|Cash on Hand|เงินสด",
@@ -284,14 +324,15 @@ RISK_MANAGEMENT = [
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
     "วัสดุเหลือใช้ทางการเกษตร|วัสดุทางการเกษตร",
-    "ของเหลือใช้|วัสดุเหลือใช้",
+    "เหลือใช้|วัสดุเหลือใช้",
     "ขาดแคลนวัตถุดิบ",
     "ecosystem",
     GREEN_PRODUCT,
     GREEN_PRODUCTION,
     LOW_CARBON,
     CORAL,
-    "ตัดไม้ทำลายป่า|deforestation ฟรี|deforestation free",
+    DEFORESTATION,
+    FOREST,
     "คาร์บอนซัพพลายเชน",
     "sustainable materials",
     "Green financing",
@@ -302,18 +343,21 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     RECYCLE,
     TOXIC,
     ATMOSPHERE,
+    NURSERY_GROUND,
+    COMMUNITY_FOREST,
+    PAPERLESS,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
-    "การจ้างงาน|ให้อาชีพ",
+    "การจ้างงาน|ให้อาชีพ|มีอาชีพ",
     "ช่วยเกษตรกร",
     "SME",
     "หนี้ครัวเรือน",
     "OTOP",
     "พันธมิตรรอบๆข้าง",
     "community product",
-    "ปรับปรุงของ supplier|ปรับปรุง supplier",
-    "ต้นทุนของ supplier",
+    "ปรับปรุง supplier",
+    "ต้นทุน supplier",
     "win win situation",
     "มอบให้ชุมชน|ให้กับชุมชน",
     SOCIETY_IMPROVEMENT,
@@ -328,4 +372,7 @@ SUPPLY_CHAIN_SOCIAL = [
     HARMONIOUS,
     PEOPLE_CENTRIC,
     "ส่งเสริมการเกษตร",
+    PATICIPATE,
+    QUALITY_OF_LIFE,
+    FAIR,
 ]
