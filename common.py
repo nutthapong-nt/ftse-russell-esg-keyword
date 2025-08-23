@@ -15,7 +15,7 @@ WIND_ENERGY = "พลังงานลม|กังหันลม|Wind"
 CARBON_NEUTRALITY = "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green"
 ENV_FRIENDLY = "เป็นมิตรกับสิ่งแวดล้อม|เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
 POLUTION = "มลพิษ"
-GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก"
+GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส"
 EMPLOYEE = "พนักงาน"
 TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ"
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
@@ -67,6 +67,17 @@ PATICIPATE = "มีส่วนร่วม"
 QUALITY_OF_LIFE = "คุณภาพชีวิต"
 FAIR = "ยุติธรรม|เป็นธรรม"
 PAPERLESS = "เปเปอร์เรท"
+AUDIT = "audit|ตรวจสอบ"
+AUDITOR = "ออดิเตอร์"
+CYBER_SECURITY = "ไซเบอร์ซีเคียวริตี้"
+ENERGY_CONSUMPTION = "การใช้พลังงาน"
+SYNERGY = "m&a|synergy|พันธมิตร|ความร่วมมือ|ควบรวมกิจการ|partner"
+RISK = "ความเสี่ยง|ความกังวล"
+CARBON_CREDIT = "คาร์บอนเครดิต"
+CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
+CARBON_CAPTURE = "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน"
+FOUNDATION = "มูลนิธิ"
+GUARANTEE = "รับรอง"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -85,8 +96,9 @@ BIODIVERSITY = [
 CLIMATE_CHANGE = [
     EFFICIENT,
     CARBON_NEUTRALITY,
-    "คาร์บอนเครดิต",
-    "บริหารจัดการคาร์บอน|คาร์บอนฟุตปริ้น|การบริหาร co2",
+    CARBON_CREDIT,
+    CARBON_FOOTPRINT,
+    "บริหารจัดการคาร์บอน|การบริหาร co2",
     GREENHOUSE_GAS,
     CFC,
     "ลดการปลดปล่อย",
@@ -99,7 +111,7 @@ CLIMATE_CHANGE = [
     WIND_ENERGY,
     SOLAR_ENERGY,
     "พลังงานความร้อนร่วม|โรงไฟฟ้า thermal",
-    "คาร์บอน capture|inject co2|co2 injection|carbon capture",
+    CARBON_CAPTURE,
     ALTERNATIVE_FUEL,
     "โรงไฟฟ้าขยะ",
     "รักษาสิ่งแวดล้อม",
@@ -148,6 +160,9 @@ POLLUTION_RESOURCES = [
     ATMOSPHERE,
     INFECTIOUS,
     PAPERLESS,
+    ENERGY_CONSUMPTION,
+    CARBON_FOOTPRINT,
+    CARBON_CAPTURE,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -199,6 +214,8 @@ CUSTOMER_RESPONSIBILITY = [
     CORRECTNESS,
     LAW,
     FAIR,
+    CYBER_SECURITY,
+    CARBON_FOOTPRINT,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -270,6 +287,9 @@ ANTI_CORRUPTION = [
     "โกง",
     LAW,
     FAIR,
+    AUDIT,
+    AUDITOR,
+    GUARANTEE
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -298,11 +318,15 @@ CORPORATE_GOVERNANCE = [
     CORRECTNESS,
     LAW,
     FAIR,
+    AUDIT,
+    AUDITOR,
+    GUARANTEE
 ]
 RISK_MANAGEMENT = [
+    RISK,
     "บริหารความเสี่ยง|risk management",
     "กระจายความเสี่ยง|การกระจายตัวโครงการ|กระจายพอร์ตการลงทุน",
-    "m&a|synergy|พันธมิตร|ความร่วมมือ|ควบรวมกิจการ|partner",
+    SYNERGY,
     "อัตราแลกเปลี่ยน",
     "กระแสเงินสด|Cash on Hand|เงินสด",
     "Cost management|Cos management",
@@ -330,6 +354,8 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     GREEN_PRODUCT,
     GREEN_PRODUCTION,
     LOW_CARBON,
+    CARBON_CREDIT,
+    CARBON_FOOTPRINT,
     CORAL,
     DEFORESTATION,
     FOREST,
@@ -346,6 +372,7 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     NURSERY_GROUND,
     COMMUNITY_FOREST,
     PAPERLESS,
+    CARBON_CAPTURE,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
@@ -375,4 +402,5 @@ SUPPLY_CHAIN_SOCIAL = [
     PATICIPATE,
     QUALITY_OF_LIFE,
     FAIR,
+    FOUNDATION,
 ]
