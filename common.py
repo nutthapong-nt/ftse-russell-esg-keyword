@@ -13,7 +13,8 @@ RENEWABLE_ENERGY = "พลังงานหมุนเวียน|renewable|�
 SOLAR_ENERGY = "โซล่าเซลล์|ไฟฟ้าแสงอาทิตย์|solar|โซล่า|พลังงานแสงอาทิตย์"
 WIND_ENERGY = "พลังงานลม|กังหันลม|Wind"
 CARBON_NEUTRALITY = "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green"
-ENV_FRIENDLY = "เป็นมิตรกับสิ่งแวดล้อม|เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
+ENVIRONMENT_FRIENDLY = "เป็นมิตรกับสิ่งแวดล้อม|เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
+ENVIRONMENT_PROTECTION = "รักษาสิ่งแวดล้อม"
 POLUTION = "มลพิษ"
 GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส"
 EMPLOYEE = "พนักงาน"
@@ -21,7 +22,7 @@ TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึ�
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
 PREPARE = "เตรียมพร้อม|เตรียมตัว"
 HONEST = "ความจริงใจ|ซื่อสัตย์"
-TRUST = "ไว้ใจ"
+TRUST = "ไว้ใจ|น่าเชื่อถือ"
 SAFETY = "ปลอดภัย"
 CUSTOMER_NEED = "ความต้องการลูกค้า|customer voice"
 REDUCE_CHEMICAL = "ลดการใช้สารเคมี"
@@ -84,6 +85,9 @@ COMMITMENT = "commitment|คอมมิทเม้น"
 COURT = "ศาล"
 JUDGE = "พิพากษา"
 REVENUE_DEPARTMENT = "Revenue Department"
+CUSTOMER_BASE = "ฐานลูกค้า"
+SUSTAINABILITY = "ยั่งยืน|sustainability|ระยะยาว"
+ENVIRONMENT = "สิ่งแวดล้อม"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -93,11 +97,12 @@ BIODIVERSITY = [
     MANGROVE_FOREST,
     DEFORESTATION,
     CORAL,
-    ENV_FRIENDLY,
+    ENVIRONMENT_FRIENDLY,
     LANDFILLING,
     CONSERVE,
     TOXIC,
     NURSERY_GROUND,
+    ENVIRONMENT,
 ]
 CLIMATE_CHANGE = [
     EFFICIENT,
@@ -120,8 +125,8 @@ CLIMATE_CHANGE = [
     CARBON_CAPTURE,
     ALTERNATIVE_FUEL,
     "โรงไฟฟ้าขยะ",
-    "รักษาสิ่งแวดล้อม",
-    ENV_FRIENDLY,
+    ENVIRONMENT_PROTECTION,
+    ENVIRONMENT_FRIENDLY,
     "ยานยนต์ไฟฟ้า",
     "green financing",
     "ภาวะโลกร้อน",
@@ -132,18 +137,19 @@ CLIMATE_CHANGE = [
     BIOSYNTHESIS,
     "climate action",
     ATMOSPHERE,
+    ENVIRONMENT,
 ]
 POLLUTION_RESOURCES = [
     EFFICIENT,
-    "สิ่งแวดล้อม",
+    ENVIRONMENT,
     "สารปนเปื้อน",
     "การปล่อยน้ำเสีย",
     "กระบวนการกรอง",
     "ระบบการจัดการฝุ่น",
     "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
     "เหลือใช้|วัสดุเหลือใช้",
-    "รักษาสิ่งแวดล้อม",
-    ENV_FRIENDLY,
+    ENVIRONMENT_PROTECTION,
+    ENVIRONMENT_FRIENDLY,
     "organic waste|ออร์แกนิคเวสต์",
     "zero waste",
     "space management",
@@ -169,6 +175,7 @@ POLLUTION_RESOURCES = [
     ENERGY_CONSUMPTION,
     CARBON_FOOTPRINT,
     CARBON_CAPTURE,
+    SUSTAINABILITY,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -187,8 +194,6 @@ WATER_SECURITY = [
     MANGROVE_FOREST,
 ]
 CUSTOMER_RESPONSIBILITY = [
-    "ความยั่งยืน",
-    "ธุรกิจที่ยั่งยืน",
     "ประหยัด",
     "การันตี|การรับประกัน|warranty",
     "ควบคุมคุณภาพ|qc|quality management",
@@ -223,6 +228,8 @@ CUSTOMER_RESPONSIBILITY = [
     CYBER_SECURITY,
     CARBON_FOOTPRINT,
     COMMITMENT,
+    CUSTOMER_BASE,
+    SUSTAINABILITY,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -331,6 +338,7 @@ CORPORATE_GOVERNANCE = [
     COURT,
     JUDGE,
     REVENUE_DEPARTMENT,
+    SUSTAINABILITY,
 ]
 RISK_MANAGEMENT = [
     RISK,
@@ -354,6 +362,7 @@ RISK_MANAGEMENT = [
     "วิกฤต",
     SECURITY_MANAGEMENT,
     COMPETITIVE,
+    SUSTAINABILITY,
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
@@ -382,6 +391,7 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     NURSERY_GROUND,
     COMMUNITY_FOREST,
     PAPERLESS,
+    SUSTAINABILITY,
     CARBON_CAPTURE,
 ]
 SUPPLY_CHAIN_SOCIAL = [
@@ -413,4 +423,5 @@ SUPPLY_CHAIN_SOCIAL = [
     QUALITY_OF_LIFE,
     FAIR,
     FOUNDATION,
+    SUSTAINABILITY,
 ]
