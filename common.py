@@ -75,9 +75,15 @@ SYNERGY = "m&a|synergy|พันธมิตร|ความร่วมมื�
 RISK = "ความเสี่ยง|ความกังวล"
 CARBON_CREDIT = "คาร์บอนเครดิต"
 CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
-CARBON_CAPTURE = "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน"
+CARBON_CAPTURE = (
+    "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน|ดูดซับของคาร์บอน"
+)
 FOUNDATION = "มูลนิธิ"
 GUARANTEE = "รับรอง"
+COMMITMENT = "commitment|คอมมิทเม้น"
+COURT = "ศาล"
+JUDGE = "พิพากษา"
+REVENUE_DEPARTMENT = "Revenue Department"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -216,6 +222,7 @@ CUSTOMER_RESPONSIBILITY = [
     FAIR,
     CYBER_SECURITY,
     CARBON_FOOTPRINT,
+    COMMITMENT,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -289,7 +296,7 @@ ANTI_CORRUPTION = [
     FAIR,
     AUDIT,
     AUDITOR,
-    GUARANTEE
+    GUARANTEE,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -301,7 +308,7 @@ CORPORATE_GOVERNANCE = [
     "เป้าหมาย|กลยุทธ์",
     "คุณค่าในระยะยาว",
     "q&a|คำถาม",
-    "commitment",
+    COMMITMENT,
     "ธรรมาภิบาล",
     "โฆษณาตัวเอง",
     RESPONSIBILITY,
@@ -320,7 +327,10 @@ CORPORATE_GOVERNANCE = [
     FAIR,
     AUDIT,
     AUDITOR,
-    GUARANTEE
+    GUARANTEE,
+    COURT,
+    JUDGE,
+    REVENUE_DEPARTMENT,
 ]
 RISK_MANAGEMENT = [
     RISK,
