@@ -77,7 +77,7 @@ RISK = "ความเสี่ยง|ความกังวล"
 CARBON_CREDIT = "คาร์บอนเครดิต"
 CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
 CARBON_CAPTURE = (
-    "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน|ดูดซับของคาร์บอน"
+    "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน|ดูดซับคาร์บอน"
 )
 FOUNDATION = "มูลนิธิ"
 GUARANTEE = "รับรอง"
@@ -88,6 +88,9 @@ REVENUE_DEPARTMENT = "Revenue Department"
 CUSTOMER_BASE = "ฐานลูกค้า"
 SUSTAINABILITY = "ยั่งยืน|sustainability|ระยะยาว"
 ENVIRONMENT = "สิ่งแวดล้อม"
+WILD_ANIMAL = "สัตว์ป่า"
+PLANING = "แผนรองรับ|วางแผน|แผนรับมือ|planning"
+EXPECT = "คาดการณ์"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -103,6 +106,7 @@ BIODIVERSITY = [
     TOXIC,
     NURSERY_GROUND,
     ENVIRONMENT,
+    WILD_ANIMAL,
 ]
 CLIMATE_CHANGE = [
     EFFICIENT,
@@ -353,7 +357,8 @@ RISK_MANAGEMENT = [
     "ประกันความเสี่ยง",
     "Country risk",
     "ประกัน",
-    "แผนรองรับ|วางแผน|แผนรับมือ|planning",
+    PLANING,
+    EXPECT,
     PREPARE,
     "ลดผลกระทบ",
     "monitoring",
