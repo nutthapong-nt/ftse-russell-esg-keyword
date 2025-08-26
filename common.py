@@ -5,6 +5,7 @@ GREEN_PRODUCT = "สินค้ายั่งยืน|sustainable product|gre
 GREEN_PRODUCTION = "อุตสาหกรรมสีเขียว"
 BIOSYNTHESIS = "biosynthesis"
 ALTERNATIVE_FUEL = "พลังงานชีวภาพ|biomass|ไบโอแมส|ชีวมวล|ไบโอดีเซล|ไบโอแก๊ส|แก๊สชีวภาพ|biogas|ไบโอเพาเวอร์|เชื้อเพลิงทางเลือก|เชื้อเพลิงสีเขียว|กรีนไฮโดรเจน|ไฮโดรเจนสีเขียว"
+CLIMATE_ACTION = "climate action"
 LOW_CARBON = "ลดคาร์บอน|ดีคาร์บอน|คาร์บอนต่ำ|คาร์บอนฟรี|low carbon|โลคาร์บอน"
 RESPONSIBILITY = "ความรับผิดชอบ|responsibility"
 RESPONSIBILITY_INVESTMENT = "การลงทุนที่มีความรับผิดชอบ"
@@ -45,7 +46,7 @@ FOOD_SAFETY = "food safety|ความปลอดภัยทางด้า�
 BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
 PEOPLE_CENTRIC = "People Centric"
-STANDARD = "standard|มาตรฐาน|สแตนดาร์ด"
+STANDARD = "standard|มาตรฐาน|สแตนดาร์ด|certify|certification|certified"
 EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า"
 POTENTIAL = "ศักยภาพ"
 HARMONIOUS = "สามัคคี|ร่วมมือร่วมใจ|ร่วมแรงร่วมใจ"
@@ -140,7 +141,7 @@ CLIMATE_CHANGE = [
     RECYCLE,
     REDUCE,
     BIOSYNTHESIS,
-    "climate action",
+    CLIMATE_ACTION,
     ATMOSPHERE,
     ENVIRONMENT,
 ]
@@ -216,6 +217,7 @@ CUSTOMER_RESPONSIBILITY = [
     "ดูแลคอยเยียวยา",
     "ดูแลผู้บริโภค",
     CUSTOMER_NEED,
+    MEET_CUSTOMER_NEED,
     HEALTHY,
     RESPONSIBILITY,
     RESPONSIBILITY_INVESTMENT,
