@@ -21,11 +21,13 @@ ENVIRONMENT_PROTECTION = "รักษาสิ่งแวดล้อม"
 POLUTION = "มลพิษ"
 GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส"
 EMPLOYEE = "พนักงาน"
-TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve"
+TRAINING = (
+    "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร"
+)
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
 PREPARE = "เตรียมพร้อม|เตรียมตัว"
 HONEST = "ความจริงใจ|ซื่อสัตย์"
-TRUST = "ไว้ใจ|น่าเชื่อถือ"
+TRUST = "ไว้ใจ|ไว้วางใจ|น่าเชื่อถือ|ความเชื่อถือ|เชื่อมั่น"
 SAFETY = "ปลอดภัย|เซฟตี้"
 CUSTOMER_NEED = "ความต้องการลูกค้า|customer voice"
 MEET_CUSTOMER_NEED = "แก้ปัญหาให้กับ Partner|ตอบสนองลูกค้า|ตอบโจทย์ลูกค้า|แก้ปัญหาให้ลูกค้า"
@@ -49,10 +51,10 @@ BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
 PEOPLE_CENTRIC = "People Centric"
 STANDARD = "standard|มาตรฐาน|สแตนดาร์ด|certify|certification|certified"
-EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า"
+EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า|เกิดประโยชน์สูงสุด"
 POTENTIAL = "ศักยภาพ"
 HARMONIOUS = "สามัคคี|ร่วมมือร่วมใจ|ร่วมแรงร่วมใจ"
-SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็กเล็ก"
+SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็กเล็ก|โครงการนักศึกษา"
 IMPRESSED = "ประทับใจ"
 WORKING_ENVIRONMENT = "สภาพแวดล้อมในการทำงาน|บรรยากาศในการทำงาน"
 COMPETITIVE = "การแข่งขัน|คู่แข่ง|competitive"
@@ -96,6 +98,11 @@ WILD_ANIMAL = "สัตว์ป่า"
 PLANING = "แผนรองรับ|วางแผน|แผนรับมือ|planning"
 EXPECT = "คาดการณ์"
 RESOURCE = "ทรัพยากร"
+STAKEHOLDER = "ผู้มีส่วนได้เสีย|ผู้มีส่วนได้ส่วนเสีย"
+CONSISTENCY = "consistency"
+CONFIDENT = "มั่นใจ"
+GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ"
+ETHICS = "จรรยาบรรณ"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -185,7 +192,7 @@ POLLUTION_RESOURCES = [
     CARBON_FOOTPRINT,
     CARBON_CAPTURE,
     SUSTAINABILITY,
-    RESOURCE
+    RESOURCE,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -202,6 +209,8 @@ WATER_SECURITY = [
     EFFICIENT,
     INFECTIOUS,
     MANGROVE_FOREST,
+    "ชลประทาน",
+    "เก็บน้ำ"
 ]
 CUSTOMER_RESPONSIBILITY = [
     "ประหยัด",
@@ -215,7 +224,7 @@ CUSTOMER_RESPONSIBILITY = [
     "สินค้าดี|quality ที่ดี|บริการที่ดี",
     "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
-    "customer experience|experience ลูกค้า|customer journey",
+    "customer experience|experience ลูกค้า|customer journey|ประสบการณ์ที่ดี",
     "พิถีพิถันในการผลิต",
     "สินค้าที่เป็น defect",
     "ดูแลคอยเยียวยา",
@@ -242,6 +251,10 @@ CUSTOMER_RESPONSIBILITY = [
     CUSTOMER_BASE,
     SUSTAINABILITY,
     SAFETY,
+    STAKEHOLDER,
+    CONSISTENCY,
+    CONFIDENT,
+    ETHICS,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -266,7 +279,6 @@ HUMAN_RIGHTS_COMMUNITY = [
     HARMONIOUS,
     PEOPLE_CENTRIC,
     "เศรษฐกิจในชุมชน",
-    "ผู้มีส่วนได้เสีย|ผู้มีส่วนได้ส่วนเสีย",
     "สังคม",
     "การสร้างความสัมพันธ์",
     "สิทธิมนุษยชน",
@@ -276,6 +288,8 @@ HUMAN_RIGHTS_COMMUNITY = [
     PATICIPATE,
     QUALITY_OF_LIFE,
     FAIR,
+    STAKEHOLDER,
+    ETHICS,
 ]
 LABOR_STANDARD = [
     "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
@@ -305,18 +319,20 @@ LABOR_STANDARD = [
     QUALITY_OF_LIFE,
     FAIR,
     SAFETY,
+    STAKEHOLDER,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
     "ทุจริตคอรัปชั่น",
     "คอรัปชั่น",
-    "ธรรมาภิบาล",
+    GOVERNANCE,
     "โกง",
     LAW,
     FAIR,
     AUDIT,
     AUDITOR,
     GUARANTEE,
+    ETHICS,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -329,7 +345,7 @@ CORPORATE_GOVERNANCE = [
     "คุณค่าในระยะยาว",
     "q&a|คำถาม",
     COMMITMENT,
-    "ธรรมาภิบาล",
+    GOVERNANCE,
     "โฆษณาตัวเอง",
     RESPONSIBILITY,
     HONEST,
@@ -352,6 +368,8 @@ CORPORATE_GOVERNANCE = [
     JUDGE,
     REVENUE_DEPARTMENT,
     SUSTAINABILITY,
+    STAKEHOLDER,
+    ETHICS,
 ]
 RISK_MANAGEMENT = [
     RISK,
@@ -373,6 +391,7 @@ RISK_MANAGEMENT = [
     "monitoring",
     "การจัดการหนี้เสีย",
     "ประเมินความเสี่ยง",
+    "ลดความเสี่ยง",
     "วิกฤต",
     SECURITY_MANAGEMENT,
     COMPETITIVE,
@@ -439,4 +458,6 @@ SUPPLY_CHAIN_SOCIAL = [
     FAIR,
     FOUNDATION,
     SUSTAINABILITY,
+    STAKEHOLDER,
+    ETHICS
 ]
