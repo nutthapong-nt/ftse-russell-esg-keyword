@@ -103,6 +103,7 @@ CONSISTENCY = "consistency"
 CONFIDENT = "มั่นใจ"
 GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ"
 ETHICS = "จรรยาบรรณ"
+ANTI_CORRUPTION_ORG = "ป.ป.ช"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -210,7 +211,7 @@ WATER_SECURITY = [
     INFECTIOUS,
     MANGROVE_FOREST,
     "ชลประทาน",
-    "เก็บน้ำ"
+    "เก็บน้ำ",
 ]
 CUSTOMER_RESPONSIBILITY = [
     "ประหยัด",
@@ -333,6 +334,7 @@ ANTI_CORRUPTION = [
     AUDITOR,
     GUARANTEE,
     ETHICS,
+    ANTI_CORRUPTION_ORG,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -459,5 +461,5 @@ SUPPLY_CHAIN_SOCIAL = [
     FOUNDATION,
     SUSTAINABILITY,
     STAKEHOLDER,
-    ETHICS
+    ETHICS,
 ]
