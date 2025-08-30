@@ -45,7 +45,7 @@ CFC = "cfc|r12|r22"
 ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
 TRANSPARENT = "transparent|ความโปร่งใส"
 QUALITY = "quality|คุณภาพ"
-SOCIETY = "ชุมชน|พื้นที่"
+SOCIETY = "ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก"
 FOOD_SAFETY = "food safety|ความปลอดภัยทางด้านอาหาร|ความปลอดภัยทางอาหาร|ความปลอดภัยอาหาร"
 BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
@@ -54,7 +54,7 @@ STANDARD = "standard|มาตรฐาน|สแตนดาร์ด|certify|c
 EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า|เกิดประโยชน์สูงสุด"
 POTENTIAL = "ศักยภาพ"
 HARMONIOUS = "สามัคคี|ร่วมมือร่วมใจ|ร่วมแรงร่วมใจ"
-SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็กเล็ก|โครงการนักศึกษา"
+SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็ก|โครงการนักศึกษา"
 IMPRESSED = "ประทับใจ"
 WORKING_ENVIRONMENT = "สภาพแวดล้อมในการทำงาน|บรรยากาศในการทำงาน"
 COMPETITIVE = "การแข่งขัน|คู่แข่ง|competitive"
@@ -104,6 +104,13 @@ CONFIDENT = "มั่นใจ"
 GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ"
 ETHICS = "จรรยาบรรณ"
 ANTI_CORRUPTION_ORG = "ป.ป.ช"
+BEWARE = "ระวัง"
+EIA = "eia"
+TRAFFIC_JAM = "รถติด|ปัญหาจราจร"
+SAVE = "ประหยัด"
+FUEL_SAVE = "ประหยัดน้ำมัน"
+CONVENIENT = "สะดวก|สบาย"
+DUST = "PM 2.5|ฝุ่น"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -132,7 +139,6 @@ CLIMATE_CHANGE = [
     "ลดการปลดปล่อย",
     "ลดการเผา",
     LOW_CARBON,
-    "PM 2.5",
     CLEAN_ENERGY,
     RENEWABLE_ENERGY,
     "New Energy|พลังงานใหม่|พลังงานรูปแบบใหม่",
@@ -194,6 +200,8 @@ POLLUTION_RESOURCES = [
     CARBON_CAPTURE,
     SUSTAINABILITY,
     RESOURCE,
+    FUEL_SAVE,
+    DUST,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -214,7 +222,7 @@ WATER_SECURITY = [
     "เก็บน้ำ",
 ]
 CUSTOMER_RESPONSIBILITY = [
-    "ประหยัด",
+    SAVE,
     "การันตี|การรับประกัน|warranty",
     "ควบคุมคุณภาพ|qc|quality management",
     "maximize value",
@@ -256,6 +264,8 @@ CUSTOMER_RESPONSIBILITY = [
     CONSISTENCY,
     CONFIDENT,
     ETHICS,
+    BEWARE,
+    CONVENIENT,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -273,6 +283,7 @@ HEALTH_SAFETY = [
     LAW,
     WORK_STANDARD,
     QUALITY_OF_LIFE,
+    BEWARE,
 ]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
@@ -291,6 +302,7 @@ HUMAN_RIGHTS_COMMUNITY = [
     FAIR,
     STAKEHOLDER,
     ETHICS,
+    EIA,
 ]
 LABOR_STANDARD = [
     "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
@@ -321,6 +333,7 @@ LABOR_STANDARD = [
     FAIR,
     SAFETY,
     STAKEHOLDER,
+    BEWARE,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
@@ -372,6 +385,7 @@ CORPORATE_GOVERNANCE = [
     SUSTAINABILITY,
     STAKEHOLDER,
     ETHICS,
+    BEWARE,
 ]
 RISK_MANAGEMENT = [
     RISK,
@@ -429,6 +443,8 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     PAPERLESS,
     SUSTAINABILITY,
     CARBON_CAPTURE,
+    BEWARE,
+    EIA,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
@@ -451,7 +467,6 @@ SUPPLY_CHAIN_SOCIAL = [
     SOCIETY,
     RESPONSIBILITY,
     "คุณค่าทางสังคม",
-    "เด็กนักเรียน",
     HARMONIOUS,
     PEOPLE_CENTRIC,
     "ส่งเสริมการเกษตร",
