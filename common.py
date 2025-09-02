@@ -21,9 +21,7 @@ ENVIRONMENT_PROTECTION = "รักษาสิ่งแวดล้อม"
 POLUTION = "มลพิษ"
 GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส"
 EMPLOYEE = "พนักงาน"
-TRAINING = (
-    "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร"
-)
+TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร|พัฒนาคน"
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
 PREPARE = "เตรียมพร้อม|เตรียมตัว"
 HONEST = "ความจริงใจ|ซื่อสัตย์"
@@ -33,11 +31,11 @@ CUSTOMER_NEED = "ความต้องการลูกค้า|customer vo
 MEET_CUSTOMER_NEED = "แก้ปัญหาให้กับ Partner|ตอบสนองลูกค้า|ตอบโจทย์ลูกค้า|แก้ปัญหาให้ลูกค้า"
 REDUCE_CHEMICAL = "ลดการใช้สารเคมี"
 CORAL = "ปะการัง"
-LANDFILLING = "ฝังกลบ"
+LANDFILLING = "ฝังกลบ|landfill"
 AFFOREST = "ปลูกต้นไม้|ปลูกป่า|สวนป่า"
 CONSERVE = "อนุรักษ์"
 RESTORATION = "ฟื้นฟู"
-TRASH = "ขยะ"
+WASTE = "ขยะ|มูลฝอย"
 CORRECTNESS = "correctness|ความถูกต้อง"
 NATURAL = "Natural|ธรรมชาติ"
 TOXIC = "เป็นพิษ"
@@ -45,16 +43,18 @@ CFC = "cfc|r12|r22"
 ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
 TRANSPARENT = "transparent|ความโปร่งใส"
 QUALITY = "quality|คุณภาพ"
-SOCIETY = "ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก"
+SOCIETY = "ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก|อาศัยโดยรอบ"
 FOOD_SAFETY = "food safety|ความปลอดภัยทางด้านอาหาร|ความปลอดภัยทางอาหาร|ความปลอดภัยอาหาร"
 BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
 PEOPLE_CENTRIC = "People Centric"
 STANDARD = "standard|มาตรฐาน|สแตนดาร์ด|certify|certification|certified"
-EFFICIENT = "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า|เกิดประโยชน์สูงสุด"
+EFFICIENT = (
+    "ประสิทธิภาพ|efficiency|optimizing|ลีน|lean|ปรับกระบวนการ|คุ้มค่า|เกิดประโยชน์สูงสุด|พัฒนาระบบ"
+)
 POTENTIAL = "ศักยภาพ"
 HARMONIOUS = "สามัคคี|ร่วมมือร่วมใจ|ร่วมแรงร่วมใจ"
-SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็ก|โครงการนักศึกษา"
+SOCIETY_IMPROVEMENT = "พัฒนาเกษตรกร|พัฒนาเด็ก|โครงการนักศึกษา|ยกระดับคุณภาพชีวิต"
 IMPRESSED = "ประทับใจ"
 WORKING_ENVIRONMENT = "สภาพแวดล้อมในการทำงาน|บรรยากาศในการทำงาน"
 COMPETITIVE = "การแข่งขัน|คู่แข่ง|competitive"
@@ -68,7 +68,7 @@ FOREST = "ป่าไม้"
 VERIFICATION = "verification"
 NURSERY_GROUND = "nursery ground|อนุบาลสัตว์"
 COMMUNITY_FOREST = "community forestry|ป่าชุมชน"
-LAW = "กฎหมาย"
+LAW = "กฎหมาย|ระเบียบ|ข้อบังคับ"
 WORK_STANDARD = "work standard|เวิร์คสแตนดาร์ด"
 PATICIPATE = "มีส่วนร่วม"
 QUALITY_OF_LIFE = "คุณภาพชีวิต"
@@ -98,10 +98,10 @@ WILD_ANIMAL = "สัตว์ป่า"
 PLANING = "แผนรองรับ|วางแผน|แผนรับมือ|planning"
 EXPECT = "คาดการณ์"
 RESOURCE = "ทรัพยากร"
-STAKEHOLDER = "ผู้มีส่วนได้เสีย|ผู้มีส่วนได้ส่วนเสีย"
+STAKEHOLDER = "ผู้มีส่วนได้เสีย|ผู้มีส่วนได้ส่วนเสีย|ทุกภาคส่วน"
 CONSISTENCY = "consistency"
 CONFIDENT = "มั่นใจ"
-GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ"
+GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ|การกำกับการดูแล"
 ETHICS = "จรรยาบรรณ"
 ANTI_CORRUPTION_ORG = "ป.ป.ช"
 BEWARE = "ระวัง"
@@ -111,6 +111,7 @@ SAVE = "ประหยัด"
 FUEL_SAVE = "ประหยัดน้ำมัน"
 CONVENIENT = "สะดวก|สบาย"
 DUST = "PM 2.5|ฝุ่น"
+SDG = "sdg|เป้าหมายการพัฒนาที่ยั่งยืน"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -127,6 +128,7 @@ BIODIVERSITY = [
     NURSERY_GROUND,
     ENVIRONMENT,
     WILD_ANIMAL,
+    SDG,
 ]
 CLIMATE_CHANGE = [
     EFFICIENT,
@@ -152,7 +154,7 @@ CLIMATE_CHANGE = [
     ENVIRONMENT_FRIENDLY,
     "ยานยนต์ไฟฟ้า",
     "green financing",
-    "ภาวะโลกร้อน",
+    "ภาวะโลกร้อน|การเปลี่ยนแปลงสภาพภูมิอากาศ",
     GREEN_PRODUCT,
     GREEN_PROJECT,
     RECYCLE,
@@ -161,6 +163,7 @@ CLIMATE_CHANGE = [
     CLIMATE_ACTION,
     ATMOSPHERE,
     ENVIRONMENT,
+    SDG,
 ]
 POLLUTION_RESOURCES = [
     EFFICIENT,
@@ -189,7 +192,7 @@ POLLUTION_RESOURCES = [
     REDUCE_CHEMICAL,
     CORAL,
     LANDFILLING,
-    TRASH,
+    WASTE,
     NATURAL,
     TOXIC,
     ATMOSPHERE,
@@ -202,17 +205,21 @@ POLLUTION_RESOURCES = [
     RESOURCE,
     FUEL_SAVE,
     DUST,
+    SDG,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
     "แหล่งน้ำธรรมชาติ",
-    "รีไซเคิลน้ำ",
+    "รีไซเคิลน้ำ|บำบัดน้ำ",
     "น้ำสะอาด",
     "ฝนตก",
     "น้ำท่วม",
     "ปริมาณน้ำ",
     "ฝนหยุด",
     "ประหยัดการใช้น้ำ",
+    "น้ำที่ผ่านการบำบัด",
+    "ระบายน้้ำ",
+    "จัดการน้ำ",
     TOXIC,
     SECURITY_MANAGEMENT,
     EFFICIENT,
@@ -220,6 +227,9 @@ WATER_SECURITY = [
     MANGROVE_FOREST,
     "ชลประทาน",
     "เก็บน้ำ",
+    SDG,
+    "อนุรักษ์ทรัพยากรน้ำ",
+    "อ่างเก็บน้ำ",
 ]
 CUSTOMER_RESPONSIBILITY = [
     SAVE,
@@ -266,6 +276,7 @@ CUSTOMER_RESPONSIBILITY = [
     ETHICS,
     BEWARE,
     CONVENIENT,
+    SDG,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -284,6 +295,7 @@ HEALTH_SAFETY = [
     WORK_STANDARD,
     QUALITY_OF_LIFE,
     BEWARE,
+    SDG,
 ]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
@@ -303,6 +315,7 @@ HUMAN_RIGHTS_COMMUNITY = [
     STAKEHOLDER,
     ETHICS,
     EIA,
+    SDG,
 ]
 LABOR_STANDARD = [
     "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
@@ -334,6 +347,7 @@ LABOR_STANDARD = [
     SAFETY,
     STAKEHOLDER,
     BEWARE,
+    SDG,
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
@@ -348,6 +362,7 @@ ANTI_CORRUPTION = [
     GUARANTEE,
     ETHICS,
     ANTI_CORRUPTION_ORG,
+    SDG,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -386,6 +401,7 @@ CORPORATE_GOVERNANCE = [
     STAKEHOLDER,
     ETHICS,
     BEWARE,
+    SDG,
 ]
 RISK_MANAGEMENT = [
     RISK,
@@ -413,6 +429,7 @@ RISK_MANAGEMENT = [
     COMPETITIVE,
     SUSTAINABILITY,
     CUSTOMER_NEED,
+    SDG,
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
@@ -445,6 +462,7 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     CARBON_CAPTURE,
     BEWARE,
     EIA,
+    SDG,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
@@ -477,4 +495,5 @@ SUPPLY_CHAIN_SOCIAL = [
     SUSTAINABILITY,
     STAKEHOLDER,
     ETHICS,
+    SDG,
 ]
