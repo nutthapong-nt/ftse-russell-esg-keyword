@@ -120,7 +120,7 @@ CORPORATE_GOVERNANCE_REPORT = "cgr"
 MONITOR = "monitor|มอนิเตอร์"
 REGIONAL_MARKET = "ตลาดภูมิภาค"
 CARELESS = "ประมาท"
-AFTER_SALES_SERVICE = "บริการหลังการขาย|เซอร์วิสหลังการขาย"
+AFTER_SALES_SERVICE = "after sale service|บริการหลังการขาย|เซอร์วิสหลังการขาย"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -253,7 +253,7 @@ CUSTOMER_RESPONSIBILITY = [
     STANDARD,
     "สัญญา",
     QUALITY,
-    "สินค้าดี|quality ที่ดี|บริการที่ดี",
+    "สินค้าดี|quality ที่ดี|บริการที่ดี|คุณภาพ product",
     "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
     "customer experience|experience ลูกค้า|customer journey|ประสบการณ์ที่ดี",
@@ -383,7 +383,7 @@ ANTI_CORRUPTION = [
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
-    "ประธานเจ้าหน้าที่บริหาร|กรรมการผู้จัดการใหญ่",
+    "ประธานเจ้าหน้าที่บริหาร|กรรมการผู้จัดการใหญ่|ประธานผู่บริหาร",
     "ประธานคณะกรรมการ",
     "CEO",
     "คณะกรรมการบริษัท",
