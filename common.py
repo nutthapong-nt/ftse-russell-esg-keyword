@@ -21,11 +21,11 @@ ENVIRONMENT_PROTECTION = "รักษาสิ่งแวดล้อม"
 POLUTION = "มลพิษ"
 GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส"
 EMPLOYEE = "พนักงาน"
-TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร|พัฒนาคน"
+TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร|พัฒนาคน|พัฒนาตนเอง|พัฒนาตัวเอง"
 KNOWLEDGE = "ความรู้|ความเข้าใจ"
 PREPARE = "เตรียมพร้อม|เตรียมตัว"
 HONEST = "ความจริงใจ|ซื่อสัตย์"
-TRUST = "ไว้ใจ|ไว้วางใจ|น่าเชื่อถือ|ความเชื่อถือ|เชื่อมั่น"
+TRUST = "ไว้ใจ|ไว้วางใจ|เชื่อถือ|เชื่อมั่น"
 SAFETY = "ปลอดภัย|เซฟตี้"
 CUSTOMER_NEED = "ความต้องการลูกค้า|customer voice"
 MEET_CUSTOMER_NEED = "แก้ปัญหาให้กับ Partner|ตอบสนองลูกค้า|ตอบโจทย์ลูกค้า|แก้ปัญหาให้ลูกค้า"
@@ -43,7 +43,8 @@ CFC = "cfc|r12|r22"
 ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
 TRANSPARENT = "transparent|ความโปร่งใส"
 QUALITY = "quality|คุณภาพ"
-SOCIETY = "ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก|อาศัยโดยรอบ"
+COMMUNITY = "สังคม|ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก|อาศัยโดยรอบ|ท้องถิ่น|community"
+LOCAL_IDENTITY = "อัตลักษณ์ท้องถิ่น"
 FOOD_SAFETY = "food safety|ความปลอดภัยทางด้านอาหาร|ความปลอดภัยทางอาหาร|ความปลอดภัยอาหาร"
 BIO_SECURITY = "bio security"
 SECURITY_MANAGEMENT = "security management"
@@ -71,7 +72,7 @@ COMMUNITY_FOREST = "community forestry|ป่าชุมชน"
 LAW = "กฎหมาย|ระเบียบ|ข้อบังคับ"
 WORK_STANDARD = "work standard|เวิร์คสแตนดาร์ด"
 PATICIPATE = "มีส่วนร่วม"
-QUALITY_OF_LIFE = "คุณภาพชีวิต"
+QUALITY_OF_LIFE = "คุณภาพชีวิต|การใช้ชีวิต"
 FAIR = "ยุติธรรม|เป็นธรรม"
 PAPERLESS = "เปเปอร์เรท"
 AUDIT = "audit|ตรวจสอบ"
@@ -101,7 +102,7 @@ RESOURCE = "ทรัพยากร"
 STAKEHOLDER = "ผู้มีส่วนได้เสีย|ผู้มีส่วนได้ส่วนเสีย|ทุกภาคส่วน"
 CONSISTENCY = "consistency"
 CONFIDENT = "มั่นใจ"
-GOVERNANCE = "governance|ธรรมาภิบาล|กำกับดูแลกิจการ|การกำกับการดูแล"
+GOVERNANCE = "governance|ธรรมาภิบาล|ดูแลกิจการ|การกำกับการดูแล"
 ETHICS = "จรรยาบรรณ"
 ANTI_CORRUPTION_ORG = "ป.ป.ช"
 BEWARE = "ระวัง"
@@ -109,9 +110,14 @@ EIA = "eia"
 TRAFFIC_JAM = "รถติด|ปัญหาจราจร"
 SAVE = "ประหยัด"
 FUEL_SAVE = "ประหยัดน้ำมัน"
+ENERGY_SAVE = "ประหยัดพลังงาน"
 CONVENIENT = "สะดวก|สบาย"
 DUST = "PM 2.5|ฝุ่น"
 SDG = "sdg|เป้าหมายการพัฒนาที่ยั่งยืน"
+CUSTOMER = "ลูกค้า|ผู้เช่า|ผู้ใช้บริการ"
+CORPORATE_GOVERNANCE_REPORT = "cgr"
+MONITOR = "monitor|มอนิเตอร์"
+REGIONAL_MARKET = "ตลาดภูมิภาค"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -164,6 +170,7 @@ CLIMATE_CHANGE = [
     ATMOSPHERE,
     ENVIRONMENT,
     SDG,
+    ENERGY_SAVE,
 ]
 POLLUTION_RESOURCES = [
     EFFICIENT,
@@ -206,6 +213,7 @@ POLLUTION_RESOURCES = [
     FUEL_SAVE,
     DUST,
     SDG,
+    ENERGY_SAVE,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -277,6 +285,7 @@ CUSTOMER_RESPONSIBILITY = [
     BEWARE,
     CONVENIENT,
     SDG,
+    REGIONAL_MARKET,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -299,11 +308,10 @@ HEALTH_SAFETY = [
 ]
 HUMAN_RIGHTS_COMMUNITY = [
     "เลเบอร์ management",
-    SOCIETY,
+    COMMUNITY,
     HARMONIOUS,
     PEOPLE_CENTRIC,
     "เศรษฐกิจในชุมชน",
-    "สังคม",
     "การสร้างความสัมพันธ์",
     "สิทธิมนุษยชน",
     "หนี้ครัวเรือน",
@@ -316,6 +324,8 @@ HUMAN_RIGHTS_COMMUNITY = [
     ETHICS,
     EIA,
     SDG,
+    LOCAL_IDENTITY,
+    REGIONAL_MARKET,
 ]
 LABOR_STANDARD = [
     "การจ้างงาน|บุคลากรที่เพิ่มขึ้น",
@@ -363,6 +373,7 @@ ANTI_CORRUPTION = [
     ETHICS,
     ANTI_CORRUPTION_ORG,
     SDG,
+    CORPORATE_GOVERNANCE_REPORT,
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -402,6 +413,7 @@ CORPORATE_GOVERNANCE = [
     ETHICS,
     BEWARE,
     SDG,
+    CORPORATE_GOVERNANCE_REPORT,
 ]
 RISK_MANAGEMENT = [
     RISK,
@@ -420,7 +432,7 @@ RISK_MANAGEMENT = [
     EXPECT,
     PREPARE,
     "ลดผลกระทบ",
-    "monitoring",
+    MONITOR,
     "การจัดการหนี้เสีย",
     "ประเมินความเสี่ยง",
     "ลดความเสี่ยง",
@@ -468,11 +480,10 @@ SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
     "การจ้างงาน|ให้อาชีพ|มีอาชีพ",
     "ช่วยเกษตรกร",
-    "SME",
+    "SME|ผู้ประกอบการขนาดเล็ก",
     "หนี้ครัวเรือน",
-    "OTOP",
     "พันธมิตรรอบๆข้าง",
-    "community product",
+    "community product|OTOP",
     "ปรับปรุง supplier",
     "ต้นทุน supplier",
     "win win situation",
@@ -482,7 +493,7 @@ SUPPLY_CHAIN_SOCIAL = [
     "คืนสู่สังคม",
     "การกุศล",
     "สังคมดี",
-    SOCIETY,
+    COMMUNITY,
     RESPONSIBILITY,
     "คุณค่าทางสังคม",
     HARMONIOUS,
@@ -496,4 +507,6 @@ SUPPLY_CHAIN_SOCIAL = [
     STAKEHOLDER,
     ETHICS,
     SDG,
+    LOCAL_IDENTITY,
+    REGIONAL_MARKET,
 ]
