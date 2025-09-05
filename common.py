@@ -64,7 +64,7 @@ INFECTIOUS = "infectious|ติดเชื้อ"
 COMPLICATION = "complication|ภาวะแทรกซ้อน"
 PROFESSIONAL = "เชี่ยวชาญ|มืออาชีพ"
 MANGROVE_FOREST = "mangrove forest"
-DEFORESTATION = "deforestation|ตัดไม้ทำลายป่า"
+DEFORESTATION = "deforestation|ตัดไม้ทำลายป่า|ทำลายธรรมชาติ"
 FOREST = "ป่าไม้"
 VERIFICATION = "verification"
 NURSERY_GROUND = "nursery ground|อนุบาลสัตว์"
@@ -76,13 +76,14 @@ QUALITY_OF_LIFE = "คุณภาพชีวิต|การใช้ชีว
 FAIR = "ยุติธรรม|เป็นธรรม"
 PAPERLESS = "เปเปอร์เรท"
 AUDIT = "audit|ตรวจสอบ"
-AUDITOR = "ออดิเตอร์"
+AUDITOR = "ออดิเตอร์|auditor"
 CYBER_SECURITY = "ไซเบอร์ซีเคียวริตี้"
 ENERGY_CONSUMPTION = "การใช้พลังงาน"
-SYNERGY = "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวมกิจการ|partner"
+SYNERGY = "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวมกิจการ|partner|jv|เจวี"
 RISK = "ความเสี่ยง|ความกังวล"
 CARBON_CREDIT = "คาร์บอนเครดิต"
 CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
+CARBON_TARGET = "carbon target"
 CARBON_CAPTURE = (
     "คาร์บอน capture|inject co2|co2 injection|carbon capture|กักเก็บคาร์บอน|ดูดซับคาร์บอน"
 )
@@ -110,7 +111,7 @@ EIA = "eia"
 TRAFFIC_JAM = "รถติด|ปัญหาจราจร"
 SAVE = "ประหยัด"
 FUEL_SAVE = "ประหยัดน้ำมัน"
-ENERGY_SAVE = "ประหยัดพลังงาน"
+ENERGY_SAVE = "ประหยัดพลังงาน|ลดพลังงาน"
 CONVENIENT = "สะดวก|สบาย"
 DUST = "PM 2.5|ฝุ่น"
 SDG = "sdg|เป้าหมายการพัฒนาที่ยั่งยืน"
@@ -119,6 +120,7 @@ CORPORATE_GOVERNANCE_REPORT = "cgr"
 MONITOR = "monitor|มอนิเตอร์"
 REGIONAL_MARKET = "ตลาดภูมิภาค"
 CARELESS = "ประมาท"
+AFTER_SALES_SERVICE = "บริการหลังการขาย|เซอร์วิสหลังการขาย"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -140,6 +142,7 @@ BIODIVERSITY = [
 CLIMATE_CHANGE = [
     EFFICIENT,
     CARBON_NEUTRALITY,
+    CARBON_TARGET,
     CARBON_CREDIT,
     CARBON_FOOTPRINT,
     "บริหารจัดการคาร์บอน|การบริหาร co2",
@@ -180,6 +183,7 @@ POLLUTION_RESOURCES = [
     "การปล่อยน้ำเสีย",
     "กระบวนการกรอง",
     "ระบบการจัดการฝุ่น",
+    "ลดขยะ",
     "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
     "เหลือใช้|วัสดุเหลือใช้",
     ENVIRONMENT_PROTECTION,
@@ -287,6 +291,7 @@ CUSTOMER_RESPONSIBILITY = [
     CONVENIENT,
     SDG,
     REGIONAL_MARKET,
+    AFTER_SALES_SERVICE,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -444,7 +449,7 @@ RISK_MANAGEMENT = [
     CUSTOMER_NEED,
     SDG,
     CARELESS,
-    SAFETY
+    SAFETY,
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
