@@ -118,6 +118,7 @@ CUSTOMER = "ลูกค้า|ผู้เช่า|ผู้ใช้บริ
 CORPORATE_GOVERNANCE_REPORT = "cgr"
 MONITOR = "monitor|มอนิเตอร์"
 REGIONAL_MARKET = "ตลาดภูมิภาค"
+CARELESS = "ประมาท"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -418,7 +419,7 @@ CORPORATE_GOVERNANCE = [
 RISK_MANAGEMENT = [
     RISK,
     "บริหารความเสี่ยง|risk management",
-    "กระจายความเสี่ยง|การกระจายตัวโครงการ|กระจายพอร์ตการลงทุน",
+    "กระจายความเสี่ยง|การกระจายตัว|กระจายพอร์ต|กระจายการลงทุน",
     SYNERGY,
     "อัตราแลกเปลี่ยน",
     "กระแสเงินสด|Cash on Hand|เงินสด",
@@ -442,6 +443,8 @@ RISK_MANAGEMENT = [
     SUSTAINABILITY,
     CUSTOMER_NEED,
     SDG,
+    CARELESS,
+    SAFETY
 ]
 TAX_TRANSPARENCY = []
 SUPPLY_CHAIN_ENVIRONMENTAL = [
