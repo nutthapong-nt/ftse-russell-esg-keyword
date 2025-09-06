@@ -39,7 +39,7 @@ NATURAL = "Natural|ธรรมชาติ"
 TOXIC = "เป็นพิษ"
 CFC = "cfc|r12|r22"
 ATMOSPHERE = "atmosphere|ชั้นบรรยากาศ"
-TRANSPARENT = "transparent|ความโปร่งใส"
+TRANSPARENT = "transparent|โปร่งใส"
 QUALITY = "quality|คุณภาพ"
 COMMUNITY = "สังคม|ชุมชน|พื้นที่|นักเรียน|นักศึกษา|ผู้สูงอายุ|เด็ก|อาศัยโดยรอบ|ท้องถิ่น|community"
 LOCAL_IDENTITY = "อัตลักษณ์ท้องถิ่น"
@@ -77,9 +77,7 @@ AUDIT = "audit|ตรวจสอบ"
 AUDITOR = "ออดิเตอร์|auditor"
 CYBER_SECURITY = "ไซเบอร์ซีเคียวริตี้"
 ENERGY_CONSUMPTION = "การใช้พลังงาน"
-SYNERGY = (
-    "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวมกิจการ|partner|พาร์ทเนอร์|jv|เจวี|จอยเวนเจอร์"
-)
+SYNERGY = "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวมกิจการ|partner|พาร์ทเนอร์|jv|เจวี|จอยเวนเจอร์|joint venture"
 RISK = "ความเสี่ยง|ความกังวล"
 CARBON_CREDIT = "คาร์บอนเครดิต"
 CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
@@ -124,6 +122,9 @@ AFTER_SALES_SERVICE = "after sale service|บริการหลังกา�
 EMPLOY = "การจ้างงาน|ให้อาชีพ|มีอาชีพ|บุคลากรที่เพิ่มขึ้น"
 CAREER = "อาชีพ"
 BEST_PLACE_TO_WORK_AWARD = "best company to work"
+QUALITY_OF_WORK = "คุณภาพในการทำงาน"
+GREEN_LOGISTIC = "กรีนโลจิสติกส์"
+SAFETY_MANAGEMENT_SYSTEM = "ISO 39001|ISO39001|Safety management System"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -170,6 +171,7 @@ CLIMATE_CHANGE = [
     "ภาวะโลกร้อน|การเปลี่ยนแปลงสภาพภูมิอากาศ",
     GREEN_PRODUCT,
     GREEN_PROJECT,
+    GREEN_LOGISTIC,
     RECYCLE,
     REDUCE,
     BIOSYNTHESIS,
@@ -197,6 +199,7 @@ POLLUTION_RESOURCES = [
     "maximize resource|maximize utilization",
     GREEN_PRODUCT,
     GREEN_PROJECT,
+    GREEN_LOGISTIC,
     RECYCLE,
     REDUCE,
     BIOSYNTHESIS,
@@ -260,6 +263,7 @@ CUSTOMER_RESPONSIBILITY = [
     "สัญญา",
     QUALITY,
     "สินค้าดี|quality ที่ดี|บริการที่ดี|คุณภาพ product",
+    QUALITY_OF_WORK,
     "customer centric|customer เซ็นเซอร์|เข้าใจ customer",
     "เป็นธรรมกับลูกค้า",
     "customer experience|experience ลูกค้า|customer journey|ประสบการณ์ที่ดี",
@@ -298,6 +302,7 @@ CUSTOMER_RESPONSIBILITY = [
     SDG,
     REGIONAL_MARKET,
     AFTER_SALES_SERVICE,
+    GREEN_LOGISTIC,
 ]
 HEALTH_SAFETY = [
     "Zero Accident",
@@ -315,6 +320,7 @@ HEALTH_SAFETY = [
     LAW,
     WORK_STANDARD,
     QUALITY_OF_LIFE,
+    QUALITY_OF_WORK,
     BEWARE,
     SDG,
     BEST_PLACE_TO_WORK_AWARD,
@@ -370,6 +376,7 @@ LABOR_STANDARD = [
     LAW,
     WORK_STANDARD,
     QUALITY_OF_LIFE,
+    QUALITY_OF_WORK,
     FAIR,
     SAFETY,
     STAKEHOLDER,
@@ -378,8 +385,7 @@ LABOR_STANDARD = [
 ]
 ANTI_CORRUPTION = [
     "cac|ต่อต้านการทุจริต|ต่อต้านคอร์รัปชั่น",
-    "ทุจริตคอรัปชั่น",
-    "คอรัปชั่น",
+    "ทุจริต|คอรัปชั่น|คอร์รัปชั่น",
     GOVERNANCE,
     "โกง",
     LAW,
@@ -494,6 +500,7 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     BEWARE,
     EIA,
     SDG,
+    GREEN_LOGISTIC,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     "สร้างรายได้ให้เกษตรกร",
@@ -504,6 +511,7 @@ SUPPLY_CHAIN_SOCIAL = [
     "หนี้ครัวเรือน",
     "พันธมิตรรอบๆข้าง",
     "community product|OTOP",
+    "community business",
     "ปรับปรุง supplier",
     "ต้นทุน supplier",
     "win win situation",
