@@ -77,9 +77,9 @@ FAIR = "ยุติธรรม|เป็นธรรม"
 PAPERLESS = "เปเปอร์เรท"
 AUDIT = "audit|ตรวจสอบ"
 AUDITOR = "ออดิเตอร์|auditor"
-CYBER_SECURITY = "ไซเบอร์ซีเคียวริตี้"
+CYBER_SECURITY = "ไซเบอร์ซีเคียวริตี้|cyber security"
 ENERGY_CONSUMPTION = "การใช้พลังงาน"
-SYNERGY = "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวมกิจการ|partner|พาร์ทเนอร์|jv|เจวี|จอยเวนเจอร์|joint venture"
+SYNERGY = "m&a|synergy|พันธมิตร|จับมือ|ความร่วมมือ|ควบรวม|partner|พาร์ทเนอร์|jv|เจวี|จอยเวนเจอร์|joint venture"
 RISK = "ความเสี่ยง|ความกังวล"
 CARBON_CREDIT = "คาร์บอนเครดิต"
 CARBON_FOOTPRINT = "คาร์บอนฟุตปริ้น"
@@ -144,6 +144,7 @@ GREEN_AREA = "พื้นที่สีเขียว"
 COMMUNITY_REVENUE = "สร้างรายได้ให้"
 WATER_FORECAST = "forecast น้ำ"
 NUCLEAR = "นิวเคลียร์|smr"
+HYDROGEN = "hydrogen"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -251,6 +252,7 @@ POLLUTION_RESOURCES = [
     HYDRO_ENERGY,
     RIVER,
     ENERGY_MANAGEMENT,
+    HYDROGEN
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
