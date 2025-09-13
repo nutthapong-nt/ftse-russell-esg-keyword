@@ -131,7 +131,7 @@ CUSTOMER_RELATIONSHIP = "relationship กับลูกค้า|engage custome
 WAIT_TIME = "wait time"
 COMPLAIN = "complain|คอมเพลน"
 PRODUCTIVE = "productive"
-CUSTOMER_CENTRIC = "customer centric|customer เซ็นเซอร์|เข้าใจ customer"
+CUSTOMER_CENTRIC = "customer centric|customer เซ็นเซอร์|เข้าใจ customer|ปัจจัย customer"
 GOOD_NEIGHBOR = "เพื่อนบ้านที่ดี"
 HUMAN_RIGHTS = "human rights|สิทธิมนุษยชน"
 COMMUNITY_CARE = "ดูแลชุมชน|ช่วยเหลือชุมชน"
@@ -145,6 +145,8 @@ COMMUNITY_REVENUE = "สร้างรายได้ให้"
 WATER_FORECAST = "forecast น้ำ"
 NUCLEAR = "นิวเคลียร์|smr"
 HYDROGEN = "hydrogen"
+EFFECTED = "ผลกระทบ"
+CULTURE = "culture"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -252,7 +254,7 @@ POLLUTION_RESOURCES = [
     HYDRO_ENERGY,
     RIVER,
     ENERGY_MANAGEMENT,
-    HYDROGEN
+    HYDROGEN,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -385,6 +387,8 @@ HUMAN_RIGHTS_COMMUNITY = [
     GOOD_NEIGHBOR,
     COMMUNITY_CARE,
     WELL_BEING,
+    EFFECTED,
+    CULTURE,
 ]
 LABOR_STANDARD = [
     EMPLOY,
@@ -494,7 +498,7 @@ RISK_MANAGEMENT = [
     PLANING,
     EXPECT,
     PREPARE,
-    "ลดผลกระทบ",
+    EFFECTED,
     MONITOR,
     "การจัดการหนี้เสีย",
     "ประเมินความเสี่ยง",
@@ -542,6 +546,7 @@ SUPPLY_CHAIN_ENVIRONMENTAL = [
     SDG,
     GREEN_LOGISTIC,
     GREEN_AREA,
+    EFFECTED,
 ]
 SUPPLY_CHAIN_SOCIAL = [
     COMMUNITY_REVENUE,
@@ -579,4 +584,6 @@ SUPPLY_CHAIN_SOCIAL = [
     LOCAL_IDENTITY,
     REGIONAL_MARKET,
     WELL_BEING,
+    EFFECTED,
+    CULTURE,
 ]
