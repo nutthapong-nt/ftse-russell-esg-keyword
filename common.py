@@ -9,15 +9,16 @@ CLIMATE_ACTION = "climate action"
 LOW_CARBON = "ลดคาร์บอน|ดีคาร์บอน|คาร์บอนต่ำ|คาร์บอนฟรี|low carbon|โลคาร์บอน"
 RESPONSIBILITY = "ความรับผิดชอบ|responsibility"
 RESPONSIBILITY_INVESTMENT = "การลงทุนที่มีความรับผิดชอบ"
-CLEAN_ENERGY = "พลังงานสะอาด|Clean Energy|พลังงานสีเขียว|พลังงานไฟฟ้าสีเขียว"
+CLEAN_ENERGY = "พลังงานสะอาด|Clean Energy|พลังงานสีเขียว|ไฟฟ้าสีเขียว"
 RENEWABLE_ENERGY = "พลังงานหมุนเวียน|renewable|พลังงานที่ยั่งยืน|พลังงานทดแทน|พลังงานทางเลือก"
 SOLAR_ENERGY = "โซล่าเซลล์|ไฟฟ้าแสงอาทิตย์|solar|โซล่า|พลังงานแสงอาทิตย์"
 WIND_ENERGY = "พลังงานลม|กังหันลม|Wind"
 HYDRO_ENERGY = "พลังงานน้ำ"
+WASTE_ENERGY = "พลังงานขยะ"
 CARBON_NEUTRALITY = "คาร์บอนสุทธิเป็นศูนย์|เป็นกลางทางคาร์บอน|คาร์บอน Natural|เน็ตซีโร่|เน็ต zero|net zero|ยูโรเปี้ยนกรีน|European Green|zero emission"
 ENVIRONMENT_FRIENDLY = "เป็นมิตรกับสิ่งแวดล้อม|เป็นมิตรต่อสิ่งแวดล้อม|โลกสีเขียว|รักโลก"
 ENVIRONMENT_PROTECTION = "รักษาสิ่งแวดล้อม"
-POLUTION = "มลพิษ"
+POLUTION = "มลพิษ|มลภาวะ"
 GREENHOUSE_GAS = "คาร์บอน|ก๊าซธรรมชาติ|เรือนกระจก|กรีนเฮ้าส์แก๊ส|co2"
 EMPLOYEE = "พนักงาน|บุคลากร"
 TRAINING = "อบรม|เทรนนิ่ง|สร้างคน|ฝึกฝน|ฝึกงาน|พัฒนาศักยภาพ|เพิ่มขีดความสามารถ|ยกระดับ|improve|พัฒนาบุคลากร|พัฒนาคน|พัฒนาตนเอง|พัฒนาตัวเอง"
@@ -151,6 +152,10 @@ ENERGY_SECURITY = "ความมั่นคงทางพลังงาน"
 ENDORSE_GOVERNMENT_POLICY = "สนับสนุนนโยบาย"
 SULFUR = "กำมะถัน"
 NITROGENOXIDE = "ออกไซด์ของไนโตรเจน"
+COAL_REDUCING = "ลดการใช้ถ่านหิน"
+WASTE_MANAGEMENT = "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management"
+INSTITUTE_OF_DIRECTOR ="สมาคมส่งเสริมสถาบันกรรมการบริษัทไทย"
+WASTE_PROBLEM = "ปัญหาขยะ"
 
 BIODIVERSITY = [
     "biodiversity|ไบโอไดเวอร์ซิตี้|ความหลากหลายทางชีวภาพ",
@@ -168,6 +173,7 @@ BIODIVERSITY = [
     ENVIRONMENT,
     WILD_ANIMAL,
     SDG,
+    WASTE_PROBLEM,
     GREEN_AREA,
 ]
 CLIMATE_CHANGE = [
@@ -188,6 +194,7 @@ CLIMATE_CHANGE = [
     WIND_ENERGY,
     SOLAR_ENERGY,
     HYDRO_ENERGY,
+    WASTE_ENERGY,
     "พลังงานความร้อนร่วม|โรงไฟฟ้า thermal",
     CARBON_CAPTURE,
     ALTERNATIVE_FUEL,
@@ -220,7 +227,8 @@ POLLUTION_RESOURCES = [
     "กระบวนการกรอง",
     "ระบบการจัดการฝุ่น",
     "ลดขยะ",
-    "การบริหารจัดการขยะ|จัดการขยะ|กำจัดขยะ|west management|waste management",
+    WASTE_MANAGEMENT,
+    WASTE_PROBLEM,
     "เหลือใช้|วัสดุเหลือใช้",
     ENVIRONMENT_PROTECTION,
     ENVIRONMENT_FRIENDLY,
@@ -263,6 +271,7 @@ POLLUTION_RESOURCES = [
     HYDROGEN,
     SULFUR,
     NITROGENOXIDE,
+    WASTE_ENERGY,
 ]
 WATER_SECURITY = [
     "แหล่งน้ำใต้ดิน",
@@ -453,6 +462,7 @@ ANTI_CORRUPTION = [
     SDG,
     CORPORATE_GOVERNANCE_REPORT,
     ENDORSE_GOVERNMENT_POLICY,
+    INSTITUTE_OF_DIRECTOR
 ]
 CORPORATE_GOVERNANCE = [
     "การประชุมผู้ถือหุ้น",
@@ -494,6 +504,7 @@ CORPORATE_GOVERNANCE = [
     SDG,
     CORPORATE_GOVERNANCE_REPORT,
     ENDORSE_GOVERNMENT_POLICY,
+    INSTITUTE_OF_DIRECTOR
 ]
 RISK_MANAGEMENT = [
     RISK,
