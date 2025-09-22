@@ -1,0 +1,2642 @@
+[
+    {
+        "keyword": "ACCIDENT",
+        "synonym": [
+            "accident"
+        ],
+        "topic": [
+            "HEALTH_SAFETY"
+        ]
+    },
+    {
+        "keyword": "AFFOREST",
+        "synonym": [
+            "ปลูกต้นไม้",
+            "ปลูกป่า",
+            "สวนป่า"
+        ],
+        "topic": [
+            "BIODIVERSITY"
+        ]
+    },
+    {
+        "keyword": "AFTER_SALES_SERVICE",
+        "synonym": [
+            "after sale service",
+            "บริการหลังการขาย",
+            "เซอร์วิสหลังการขาย"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "AGRICULTURAL_WASTE",
+        "synonym": [
+            "วัสดุเหลือใช้ทางการเกษตร",
+            "วัสดุทางการเกษตร"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "ALTERNATIVE_FUEL",
+        "synonym": [
+            "พลังงานชีวภาพ",
+            "biomass",
+            "ไบโอแมส",
+            "ชีวมวล",
+            "ไบโอดีเซล",
+            "ไบโอแก๊ส",
+            "แก๊สชีวภาพ",
+            "biogas",
+            "ไบโอเพาเวอร์",
+            "เชื้อเพลิงทางเลือก",
+            "เชื้อเพลิงสีเขียว",
+            "กรีนไฮโดรเจน",
+            "ไฮโดรเจนสีเขียว",
+            "เชื้อเพลิงสะอาด"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "AMELIORATE",
+        "synonym": [
+            "เยียวยา"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "ANTI_CORRUPTION",
+        "synonym": [
+            "cac",
+            "ต่อต้านการทุจริต",
+            "ต่อต้านคอร์รัปชั่น"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION"
+        ]
+    },
+    {
+        "keyword": "ANTI_CORRUPTION_ORG",
+        "synonym": [
+            "ป.ป.ช"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION"
+        ]
+    },
+    {
+        "keyword": "ATMOSPHERE",
+        "synonym": [
+            "atmosphere",
+            "ชั้นบรรยากาศ"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "AUDIT",
+        "synonym": [
+            "audit",
+            "ตรวจสอบ"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "AUDITOR",
+        "synonym": [
+            "ออดิเตอร์",
+            "auditor"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "BEST_PLACE_TO_WORK_AWARD",
+        "synonym": [
+            "best company to work"
+        ],
+        "topic": [
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "BEWARE",
+        "synonym": [
+            "ระวัง"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "BIODIVERSITY",
+        "synonym": [
+            "biodiversity",
+            "ไบโอไดเวอร์ซิตี้",
+            "ความหลากหลายทางชีวภาพ"
+        ],
+        "topic": [
+            "BIODIVERSITY"
+        ]
+    },
+    {
+        "keyword": "BIOSYNTHESIS",
+        "synonym": [
+            "biosynthesis"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "BIO_SECURITY",
+        "synonym": [
+            "bio security"
+        ],
+        "topic": [
+            "HEALTH_SAFETY"
+        ]
+    },
+    {
+        "keyword": "BOARD_CHAIRMAN",
+        "synonym": [
+            "ประธานคณะกรรมการ"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "BOARD_DIRECTOR",
+        "synonym": [
+            "คณะกรรมการบริษัท"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "BURNING",
+        "synonym": [
+            "เผา"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "CARBON_CAPTURE",
+        "synonym": [
+            "คาร์บอน capture",
+            "inject co2",
+            "co2 injection",
+            "carbon capture",
+            "กักเก็บคาร์บอน",
+            "ดูดซับคาร์บอน"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CARBON_CREDIT",
+        "synonym": [
+            "คาร์บอนเครดิต"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CARBON_FOOTPRINT",
+        "synonym": [
+            "คาร์บอนฟุตปริ้น"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "CUSTOMER_RESPONSIBILITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CARBON_MANAGEMENT",
+        "synonym": [
+            "บริหารจัดการคาร์บอน",
+            "การบริหาร co2"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "CARBON_NEUTRALITY",
+        "synonym": [
+            "คาร์บอนสุทธิเป็นศูนย์",
+            "เป็นกลางทางคาร์บอน",
+            "คาร์บอน Natural",
+            "เน็ตซีโร่",
+            "เน็ต zero",
+            "net zero",
+            "ยูโรเปี้ยนกรีน",
+            "European Green",
+            "zero emission"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "CARBON_SUPPLY_CHAIN",
+        "synonym": [
+            "คาร์บอนซัพพลายเชน"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CARBON_TARGET",
+        "synonym": [
+            "carbon target"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "CAREER",
+        "synonym": [
+            "อาชีพ"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "CARELESS",
+        "synonym": [
+            "ประมาท"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CASH",
+        "synonym": [
+            "cash",
+            "เงินสด"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CASH_FLOW",
+        "synonym": [
+            "กระแสเงินสด"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CEO",
+        "synonym": [
+            "CEO",
+            "ประธานเจ้าหน้าที่บริหาร",
+            "ประธานผู่บริหาร"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "CFC",
+        "synonym": [
+            "cfc",
+            "r12",
+            "r22"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CHARITY",
+        "synonym": [
+            "บริจาค",
+            "การกุศล"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "CHEAT",
+        "synonym": [
+            "โกง"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION"
+        ]
+    },
+    {
+        "keyword": "CIRCULAR_ECONOMY",
+        "synonym": [
+            "circular economy"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY"
+        ]
+    },
+    {
+        "keyword": "CLEAN_ENERGY",
+        "synonym": [
+            "พลังงานสะอาด",
+            "Clean Energy",
+            "พลังงานสีเขียว",
+            "ไฟฟ้าสีเขียว"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "CLEAN_WATER",
+        "synonym": [
+            "น้ำสะอาด",
+            "น้ำดี"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "CLIMATE_ACTION",
+        "synonym": [
+            "climate action"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "CLIMATE_CHANGE",
+        "synonym": [
+            "climate change",
+            "ภาวะโลกร้อน",
+            "การเปลี่ยนแปลงสภาพภูมิอากาศ"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "COMMITMENT",
+        "synonym": [
+            "commitment",
+            "คอมมิทเม้น"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY",
+        "synonym": [
+            "สังคม",
+            "ชุมชน",
+            "พื้นที่",
+            "นักเรียน",
+            "นักศึกษา",
+            "ผู้สูงอายุ",
+            "เด็ก",
+            "อาศัยโดยรอบ",
+            "ท้องถิ่น",
+            "community",
+            "ประชาชน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_BUSINESS",
+        "synonym": [
+            "community business"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_CARE",
+        "synonym": [
+            "ดูแลชุมชน",
+            "ช่วยเหลือชุมชน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_FOREST",
+        "synonym": [
+            "community forestry",
+            "ป่าชุมชน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_GIVING",
+        "synonym": [
+            "มอบให้ชุมชน",
+            "ให้กับชุมชน",
+            "คืนสู่สังคม"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_PRODUCT",
+        "synonym": [
+            "community product",
+            "OTOP"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_REVENUE",
+        "synonym": [
+            "สร้างรายได้ให้"
+        ],
+        "topic": [
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMMUNITY_VALUE",
+        "synonym": [
+            "คุณค่าทางสังคม"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "COMPETITIVE",
+        "synonym": [
+            "การแข่งขัน",
+            "คู่แข่ง",
+            "competitive"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CONFIDENT",
+        "synonym": [
+            "มั่นใจ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CONSERVE",
+        "synonym": [
+            "อนุรักษ์"
+        ],
+        "topic": [
+            "BIODIVERSITY"
+        ]
+    },
+    {
+        "keyword": "CONSERVE_WATER",
+        "synonym": [
+            "อนุรักษ์ทรัพยากรน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "CONSISTENCY",
+        "synonym": [
+            "consistency"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CONTACT",
+        "synonym": [
+            "สัญญา"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CONVENIENT",
+        "synonym": [
+            "สะดวก",
+            "สบาย"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CORAL",
+        "synonym": [
+            "ปะการัง"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "CORPORATE_GOVERNANCE",
+        "synonym": [
+            "corporate governance",
+            "การกำกับกิจการที่ดี"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "CORPORATE_GOVERNANCE_REPORT",
+        "synonym": [
+            "cgr"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "CORRECTNESS",
+        "synonym": [
+            "correctness",
+            "ถูกต้อง"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "CORRUPTION",
+        "synonym": [
+            "ทุจริต",
+            "คอรัปชั่น",
+            "คอร์รัปชั่น"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION"
+        ]
+    },
+    {
+        "keyword": "COUNTRY_RISK",
+        "synonym": [
+            "country risk"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "COURT",
+        "synonym": [
+            "ศาล"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "CRISIS",
+        "synonym": [
+            "วิกฤต"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CULTURE",
+        "synonym": [
+            "culture"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "CUSTOMER_BASE",
+        "synonym": [
+            "ฐานลูกค้า"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CUSTOMER_CENTRIC",
+        "synonym": [
+            "customer centric",
+            "customer เซ็นเซอร์",
+            "เข้าใจ customer",
+            "ปัจจัย customer"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CUSTOMER_EXPERIENCE",
+        "synonym": [
+            "customer experience",
+            "experience ลูกค้า",
+            "customer journey",
+            "ประสบการณ์ที่ดี",
+            "พฤติกรรมผู้บริโภค"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CUSTOMER_NEED",
+        "synonym": [
+            "ความต้องการลูกค้า",
+            "customer voice"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "CUSTOMER_RESPONSIBILITY",
+        "synonym": [
+            "เป็นธรรมกับลูกค้า",
+            "ดูแลผู้บริโภค"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "CYBER_SECURITY",
+        "synonym": [
+            "ไซเบอร์ซีเคียวริตี้",
+            "cyber security"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "DEBT_MANAGEMENT",
+        "synonym": [
+            "การจัดการหนี้เสีย"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "DEFECT_PRODUCT",
+        "synonym": [
+            "สินค้า defect"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "DEFORESTATION",
+        "synonym": [
+            "deforestation",
+            "ตัดไม้ทำลายป่า",
+            "ทำลายธรรมชาติ"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "DIVERSIFICATION",
+        "synonym": [
+            "กระจายความเสี่ยง",
+            "การกระจายตัว",
+            "กระจายพอร์ต",
+            "กระจายการลงทุน"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "DRAIN_WATER",
+        "synonym": [
+            "ระบายน้้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "DRINKING_WATER",
+        "synonym": [
+            "น้ำดื่ม"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "DUST",
+        "synonym": [
+            "pm 2.5",
+            "ฝุ่น",
+            "เขม่า"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "DUST_MANAGEMENT",
+        "synonym": [
+            "กำจัดฝุ่น",
+            "จัดการฝุ่น"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY"
+        ]
+    },
+    {
+        "keyword": "ECOSYSTEM",
+        "synonym": [
+            "ecosystem"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "EFFECTED",
+        "synonym": [
+            "ผลกระทบ"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "EFFICIENT",
+        "synonym": [
+            "ประสิทธิภาพ",
+            "efficiency",
+            "optimizing",
+            "ลีน",
+            "lean",
+            "ปรับกระบวนการ",
+            "คุ้มค่า",
+            "เกิดประโยชน์สูงสุด",
+            "พัฒนาระบบ",
+            "maximize resource",
+            "maximize utilization",
+            "maximize value"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "EIA",
+        "synonym": [
+            "eia"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "ELECTRIC_VEHICLE",
+        "synonym": [
+            "รถยนต์ไฟฟ้า",
+            "ยานยนต์ไฟฟ้า"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "EMISSION",
+        "synonym": [
+            "emission",
+            "การปลดปล่อย"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "EMPLOY",
+        "synonym": [
+            "การจ้างงาน",
+            "ให้อาชีพ",
+            "มีอาชีพ",
+            "บุคลากรที่เพิ่มขึ้น",
+            "รับพนักงาน"
+        ],
+        "topic": [
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "EMPLOYEE",
+        "synonym": [
+            "พนักงาน",
+            "บุคลากร"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "EMPLOYEE_NUMBER",
+        "synonym": [
+            "จำนวนพนักงาน"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "EMPLOYEE_SALARY",
+        "synonym": [
+            "เงินเดือนพนักงาน"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "EMPLOYEE_WELFARE",
+        "synonym": [
+            "สวัสดิการ",
+            "ผลประโยชน์พนักงาน",
+            "หอพักพนักงาน",
+            "ดูแลพนักงาน"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "ENDORSE_GOVERNMENT_POLICY",
+        "synonym": [
+            "สนับสนุนนโยบาย"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "ENERGY_MANAGEMENT",
+        "synonym": [
+            "energy management",
+            "บริหารจัดการพลังงาน"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "ENERGY_SAVE",
+        "synonym": [
+            "ประหยัดพลังงาน",
+            "ลดพลังงาน",
+            "ค่าพลังงานลง",
+            "energy saving"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "ENERGY_SECURITY",
+        "synonym": [
+            "ความมั่นคงทางพลังงาน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "ENVIRONMENT",
+        "synonym": [
+            "สิ่งแวดล้อม"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "ENVIRONMENT_FRIENDLY",
+        "synonym": [
+            "เป็นมิตรกับสิ่งแวดล้อม",
+            "เป็นมิตรต่อสิ่งแวดล้อม",
+            "โลกสีเขียว",
+            "รักโลก"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "ENVIRONMENT_PROTECTION",
+        "synonym": [
+            "รักษาสิ่งแวดล้อม"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "ETHICS",
+        "synonym": [
+            "จรรยาบรรณ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "EXCHANGE_RATE",
+        "synonym": [
+            "อัตราแลกเปลี่ยน"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "EXPECT",
+        "synonym": [
+            "คาดการณ์"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "FAIR",
+        "synonym": [
+            "ยุติธรรม",
+            "เป็นธรรม"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "FILTERED_WATER",
+        "synonym": [
+            "น้ำกรอง"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "FILTRATION",
+        "synonym": [
+            "กรอง"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "FLOOD_WATER",
+        "synonym": [
+            "น้ำท่วม"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "FOREST",
+        "synonym": [
+            "ป่าไม้"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "FOSSIL_FUEL",
+        "synonym": [
+            "เชื้อเพลิงฟอสซิล",
+            "พลังงานที่ไม่สะอาด"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "FOUNDATION",
+        "synonym": [
+            "มูลนิธิ"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "FUEL_SAVE",
+        "synonym": [
+            "ประหยัดน้ำมัน"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "GOOD_NEIGHBOR",
+        "synonym": [
+            "เพื่อนบ้านที่ดี"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "GOOD_SOCIETY",
+        "synonym": [
+            "สังคมดี"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "GOVERNANCE",
+        "synonym": [
+            "governance",
+            "ธรรมาภิบาล",
+            "ดูแลกิจการ",
+            "การกำกับการดูแล"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "GREENHOUSE_GAS",
+        "synonym": [
+            "คาร์บอน",
+            "ก๊าซธรรมชาติ",
+            "เรือนกระจก",
+            "กรีนเฮ้าส์แก๊ส",
+            "co2"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GREEN_AREA",
+        "synonym": [
+            "พื้นที่สีเขียว"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "CLIMATE_CHANGE",
+            "WATER_SECURITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GREEN_FINANCING",
+        "synonym": [
+            "green financing"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GREEN_LOGISTIC",
+        "synonym": [
+            "กรีนโลจิสติกส์"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "CUSTOMER_RESPONSIBILITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GREEN_PRODUCT",
+        "synonym": [
+            "สินค้ายั่งยืน",
+            "sustainable product",
+            "green polymer",
+            "กรีนโปรดักส์"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GREEN_PROJECT",
+        "synonym": [
+            "อุตสาหกรรมสีเขียว",
+            "green initiative",
+            "green project",
+            "green transition",
+            "green solution",
+            "green Concept"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "GROUND_WATER",
+        "synonym": [
+            "แหล่งน้ำใต้ดิน"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "GUARANTEE",
+        "synonym": [
+            "รับรอง"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "HARMONIOUS",
+        "synonym": [
+            "สามัคคี",
+            "ร่วมมือร่วมใจ",
+            "ร่วมแรงร่วมใจ"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "HONEST",
+        "synonym": [
+            "จริงใจ",
+            "ซื่อสัตย์"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "HOUSEHOLD_DEBT",
+        "synonym": [
+            "หนี้ครัวเรือน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "HUMAN_RESOURCE",
+        "synonym": [
+            "ด้านบุคลากร",
+            "ทรัพยากรบุคคลร"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "HUMAN_RIGHTS",
+        "synonym": [
+            "human rights",
+            "สิทธิมนุษยชน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY"
+        ]
+    },
+    {
+        "keyword": "HYDROGEN",
+        "synonym": [
+            "hydrogen"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "HYDRO_ENERGY",
+        "synonym": [
+            "พลังงานน้ำ",
+            "โรงไฟฟ้าไฮโดร"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "ILLEGAL",
+        "synonym": [
+            "ผิดกฎหมาย"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "IMPRESSED",
+        "synonym": [
+            "ประทับใจ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "INCENTIVE",
+        "synonym": [
+            "อินเซนทีฟ"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "INFECTIOUS",
+        "synonym": [
+            "infectious",
+            "ติดเชื้อ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "HEALTH_SAFETY"
+        ]
+    },
+    {
+        "keyword": "INSTITUTE_OF_DIRECTOR",
+        "synonym": [
+            "สมาคมส่งเสริมสถาบันกรรมการบริษัทไทย"
+        ],
+        "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "INSURANCE",
+        "synonym": [
+            "ประกัน"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "INVESTOR_NEED",
+        "synonym": [
+            "ความต้องการนักลงทุน"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "IRRIGATION",
+        "synonym": [
+            "ชลประทาน"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "JUDGE",
+        "synonym": [
+            "พิพากษา"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "KNOWLEDGE",
+        "synonym": [
+            "ความรู้",
+            "เข้าใจ"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "LABOR_MANAGEMENT",
+        "synonym": [
+            "เลเบอร์ management"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "LANDFILLING",
+        "synonym": [
+            "ฝังกลบ",
+            "landfill"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "LAW",
+        "synonym": [
+            "กฎหมาย",
+            "ระเบียบ",
+            "ข้อบังคับ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "LEADERSHIP_VISION",
+        "synonym": [
+            "วิสัยทัศน์ผู้บริหาร"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "LOCAL_ECONOMIC",
+        "synonym": [
+            "เศรษฐกิจฐานราก",
+            "เศรษฐกิจในชุมชน"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY"
+        ]
+    },
+    {
+        "keyword": "LOCAL_IDENTITY",
+        "synonym": [
+            "อัตลักษณ์ท้องถิ่น"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "LONGTERM_VALUE",
+        "synonym": [
+            "คุณค่าในระยะยาว"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "LOW_CARBON",
+        "synonym": [
+            "ลดคาร์บอน",
+            "ดีคาร์บอน",
+            "คาร์บอนต่ำ",
+            "คาร์บอนฟรี",
+            "low carbon",
+            "โลคาร์บอน"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "MANAGING_DIRECTOR",
+        "synonym": [
+            "กรรมการผู้จัดการใหญ่"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "MANGROVE_FOREST",
+        "synonym": [
+            "mangrove forest"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "MEET_CUSTOMER_NEED",
+        "synonym": [
+            "แก้ปัญหาให้กับ Partner",
+            "ตอบสนองลูกค้า",
+            "ตอบโจทย์ลูกค้า",
+            "แก้ปัญหาให้ลูกค้า"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "MINIMUM_WAGE",
+        "synonym": [
+            "ค่าแรงขั้นต่ำ"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "MONITOR",
+        "synonym": [
+            "monitor",
+            "มอนิเตอร์"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "NATURAL",
+        "synonym": [
+            "natural",
+            "ธรรมชาติ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "NATURAL_WATER",
+        "synonym": [
+            "แหล่งน้ำธรรมชาติ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "NEW_ENERGY",
+        "synonym": [
+            "New Energy",
+            "พลังงานใหม่",
+            "พลังงานรูปแบบใหม่"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "NITROGENOXIDE",
+        "synonym": [
+            "ออกไซด์ของไนโตรเจน"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "NURSERY_GROUND",
+        "synonym": [
+            "nursery ground",
+            "อนุบาลสัตว์"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "ORGANIC_WASTE",
+        "synonym": [
+            "organic waste",
+            "ออร์แกนิคเวสต์"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "PAPERLESS",
+        "synonym": [
+            "เปเปอร์เรท"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "PATICIPATE",
+        "synonym": [
+            "มีส่วนร่วม"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "PEOPLE_CENTRIC",
+        "synonym": [
+            "People Centric"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "PLANING",
+        "synonym": [
+            "แผนรองรับ",
+            "วางแผน",
+            "แผนรับมือ",
+            "planning"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "POLLUTED_WATER",
+        "synonym": [
+            "polluted water",
+            "น้ำเสีย"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "POLLUTION",
+        "synonym": [
+            "สารปนเปื้อน",
+            "ปนเปื้อน"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "POLUTION",
+        "synonym": [
+            "มลพิษ",
+            "มลภาวะ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "POTENTIAL",
+        "synonym": [
+            "ศักยภาพ"
+        ],
+        "topic": [
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "PREPARE",
+        "synonym": [
+            "เตรียมพร้อม",
+            "เตรียมตัว"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "PRODUCTIVE",
+        "synonym": [
+            "productive"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "PROFESSIONAL",
+        "synonym": [
+            "เชี่ยวชาญ",
+            "มืออาชีพ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "QUALITY",
+        "synonym": [
+            "quality",
+            "คุณภาพ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "QUALITY_MANAGEMENT",
+        "synonym": [
+            "ควบคุมคุณภาพ",
+            "qc",
+            "quality management"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "QUALITY_OF_LIFE",
+        "synonym": [
+            "คุณภาพชีวิต"
+        ],
+        "topic": [
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "QUALITY_OF_PRODUCT",
+        "synonym": [
+            "สินค้าดี",
+            "quality ที่ดี",
+            "บริการที่ดี",
+            "คุณภาพ product",
+            "พิถีพิถันในการผลิต"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "QUALITY_OF_WORK",
+        "synonym": [
+            "คุณภาพในการทำงาน"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "QUESTION",
+        "synonym": [
+            "q&a",
+            "คำถาม"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "RAIN",
+        "synonym": [
+            "ฝน"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "RAINY_SEASON",
+        "synonym": [
+            "ฤดูฝน"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "RAW_WATER",
+        "synonym": [
+            "น้ำดิบ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "RECYCLE",
+        "synonym": [
+            "รีไซเคิล",
+            "recycle",
+            "recycling",
+            "ขึ้นรูปใหม่",
+            "เอากลับมาใช้"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "REDUCE_CHEMICAL",
+        "synonym": [
+            "ลดสารเคมี"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "REDUCE_PLASTIC",
+        "synonym": [
+            "reduce",
+            "ลดพลาสติก",
+            "ลดน้ำหนักพลาสติก",
+            "ลดโพลิเมอร์",
+            "ลดตัวพลาสติก"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "REGIONAL_MARKET",
+        "synonym": [
+            "ตลาดภูมิภาค",
+            "regional"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "RELIABILITY",
+        "synonym": [
+            "ไว้ใจ",
+            "ไว้วางใจ",
+            "เชื่อถือ",
+            "เชื่อมั่น",
+            "reliability"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "RENEWABLE_ENERGY",
+        "synonym": [
+            "พลังงานหมุนเวียน",
+            "renewable",
+            "พลังงานที่ยั่งยืน",
+            "พลังงานทดแทน",
+            "พลังงานทางเลือก"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "RESOURCE",
+        "synonym": [
+            "ทรัพยากร",
+            "วัตถุดิบ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "RESOURCE_LACKING",
+        "synonym": [
+            "ขาดแคลนวัตถุดิบ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "RESPONSIBILITY",
+        "synonym": [
+            "ความรับผิดชอบ",
+            "responsibility"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "RESPONSIBILITY_INVESTMENT",
+        "synonym": [
+            "การลงทุนที่มีความรับผิดชอบ"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "RESTORATION",
+        "synonym": [
+            "ฟื้นฟู"
+        ],
+        "topic": [
+            "BIODIVERSITY"
+        ]
+    },
+    {
+        "keyword": "REVENUE_DEPARTMENT",
+        "synonym": [
+            "Revenue Department"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "RISK",
+        "synonym": [
+            "ความเสี่ยง",
+            "ความกังวล"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "RISK_ASSETMENT",
+        "synonym": [
+            "ประเมินความเสี่ยง"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "RISK_INSURANCE",
+        "synonym": [
+            "ประกันความเสี่ยง"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "RISK_MANAGEMENT",
+        "synonym": [
+            "บริหารความเสี่ยง",
+            "risk management",
+            "จัดการความเสี่ยง"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "RISK_MITIGATION",
+        "synonym": [
+            "ป้องกันความเสี่ยง",
+            "ลดความเสี่ยง"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "RIVER",
+        "synonym": [
+            "แม่น้ำ"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "SAFETY",
+        "synonym": [
+            "ปลอดภัย",
+            "เซฟตี้"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "SAVE",
+        "synonym": [
+            "ประหยัด"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "SAVE_WATER",
+        "synonym": [
+            "ประหยัดน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "SDG",
+        "synonym": [
+            "sdg",
+            "เป้าหมายการพัฒนาที่ยั่งยืน",
+            "เป้าหมายความยั่งยืน"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SECURITY_MANAGEMENT",
+        "synonym": [
+            "security management"
+        ],
+        "topic": [
+            "WATER_SECURITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "SELF_PROMOTE",
+        "synonym": [
+            "โฆษณาตัวเอง"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "SHAREHOLDER_MEETING",
+        "synonym": [
+            "ประชุมผู้ถือหุ้น"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "SME",
+        "synonym": [
+            "SME",
+            "ผู้ประกอบการขนาดเล็ก"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SOCIETY_IMPROVEMENT",
+        "synonym": [
+            "พัฒนาเกษตรกร",
+            "พัฒนาเด็ก",
+            "โครงการนักศึกษา",
+            "ยกระดับคุณภาพชีวิต",
+            "ส่งเสริมการเกษตร",
+            "ช่วยเกษตรกร"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SOLAR_ENERGY",
+        "synonym": [
+            "โซล่าเซลล์",
+            "ไฟฟ้าแสงอาทิตย์",
+            "solar",
+            "โซล่า",
+            "พลังงานแสงอาทิตย์"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "SOLAR_FLOATING",
+        "synonym": [
+            "โซล่า floating"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "SPACE_MANAGEMENT",
+        "synonym": [
+            "space management"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "STAKEHOLDER",
+        "synonym": [
+            "ผู้มีส่วนได้เสีย",
+            "ผู้มีส่วนได้ส่วนเสีย",
+            "ทุกภาคส่วน"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "STANDARD",
+        "synonym": [
+            "standard",
+            "มาตรฐาน",
+            "สแตนดาร์ด",
+            "certify",
+            "certification",
+            "certified"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "STRATEGY",
+        "synonym": [
+            "กลยุทธ์"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "SULFUR",
+        "synonym": [
+            "กำมะถัน"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY"
+        ]
+    },
+    {
+        "keyword": "SUPPLIER_COST",
+        "synonym": [
+            "ต้นทุน supplier"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SUPPLIER_IMPROVEMENT",
+        "synonym": [
+            "ปรับปรุง supplier"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SUSTAINABILITY",
+        "synonym": [
+            "ยั่งยืน",
+            "sustainability",
+            "ระยะยาว"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "SUSTAINABLE_MATERIALS",
+        "synonym": [
+            "sustainable materials"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "SYNERGY",
+        "synonym": [
+            "m&a",
+            "synergy",
+            "พันธมิตร",
+            "จับมือ",
+            "ความร่วมมือ",
+            "ควบรวม",
+            "partner",
+            "พาร์ทเนอร์",
+            "jv",
+            "เจวี",
+            "จอยเวนเจอร์",
+            "joint venture",
+            "ร่วมทุน"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "TAP_WATER",
+        "synonym": [
+            "ประปา"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "TARGET",
+        "synonym": [
+            "เป้าหมาย"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "TOXIC",
+        "synonym": [
+            "พิษ"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "TRAINING",
+        "synonym": [
+            "อบรม",
+            "เทรนนิ่ง",
+            "สร้างคน",
+            "ฝึกฝน",
+            "ฝึกงาน",
+            "พัฒนาศักยภาพ",
+            "เพิ่มขีดความสามารถ",
+            "ยกระดับ",
+            "improve",
+            "พัฒนาบุคลากร",
+            "พัฒนาคน",
+            "พัฒนาตนเอง",
+            "พัฒนาตัวเอง"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "TRANSPARENT",
+        "synonym": [
+            "transparent",
+            "โปร่งใส",
+            "เปิดเผยข้อมูล"
+        ],
+        "topic": [
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "UNCERTAINTY",
+        "synonym": [
+            "ความผันผวน",
+            "ความไม่แน่นอน",
+            "การเปลี่ยนแปลง"
+        ],
+        "topic": [
+            "RISK_MANAGEMENT"
+        ]
+    },
+    {
+        "keyword": "VERIFICATION",
+        "synonym": [
+            "verification"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
+        ]
+    },
+    {
+        "keyword": "WAIT_TIME",
+        "synonym": [
+            "wait time"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "WARANTY",
+        "synonym": [
+            "การันตี",
+            "รับประกัน",
+            "warranty"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY"
+        ]
+    },
+    {
+        "keyword": "WASTE",
+        "synonym": [
+            "ขยะ",
+            "มูลฝอย"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "WASTE_ENERGY",
+        "synonym": [
+            "พลังงานขยะ",
+            "ไฟฟ้าขยะ"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "WASTE_MANAGEMENT",
+        "synonym": [
+            "การบริหารจัดการขยะ",
+            "จัดการขยะ",
+            "กำจัดขยะ",
+            "west management",
+            "waste management"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "WASTE_MATERIAL",
+        "synonym": [
+            "วัสดุเหลือใช้",
+            "เหลือใช้"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
+        ]
+    },
+    {
+        "keyword": "WASTE_PROBLEM",
+        "synonym": [
+            "ปัญหาขยะ"
+        ],
+        "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES"
+        ]
+    },
+    {
+        "keyword": "WATER_COURSE",
+        "synonym": [
+            "น้ำที่ไหลผ่าน",
+            "น้ำไหลผ่าน"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_FORECAST",
+        "synonym": [
+            "forecast น้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_LEVEL",
+        "synonym": [
+            "ปริมาณน้ำ",
+            "ระดับน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_MANAGEMENT",
+        "synonym": [
+            "จัดการน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_SOURCE",
+        "synonym": [
+            "แหล่งน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_STORAGE",
+        "synonym": [
+            "อ่างเก็บน้ำ",
+            "เก็บน้ำ"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WATER_TREATMENT",
+        "synonym": [
+            "รีไซเคิลน้ำ",
+            "บำบัดน้ำ",
+            "น้ำที่ผ่านการบำบัด"
+        ],
+        "topic": [
+            "WATER_SECURITY"
+        ]
+    },
+    {
+        "keyword": "WELLNESS",
+        "synonym": [
+            "รักษาสุขภาพ",
+            "เพื่อสุขภาพ",
+            "สุขภาพดี",
+            "wellness"
+        ],
+        "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "WELL_BEING",
+        "synonym": [
+            "ความเป็นอยู่"
+        ],
+        "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "WILD_ANIMAL",
+        "synonym": [
+            "สัตว์ป่า"
+        ],
+        "topic": [
+            "BIODIVERSITY"
+        ]
+    },
+    {
+        "keyword": "WIND_ENERGY",
+        "synonym": [
+            "พลังงานลม",
+            "กังหันลม",
+            "Wind"
+        ],
+        "topic": [
+            "CLIMATE_CHANGE"
+        ]
+    },
+    {
+        "keyword": "WIN_WIN",
+        "synonym": [
+            "win win"
+        ],
+        "topic": [
+            "SUPPLY_CHAIN_SOCIAL"
+        ]
+    },
+    {
+        "keyword": "WORKEPLACE_ISSUE",
+        "synonym": [
+            "ปัญหาการทำงาน"
+        ],
+        "topic": [
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "WORKING_ENVIRONMENT",
+        "synonym": [
+            "สภาพแวดล้อมในการทำงาน",
+            "บรรยากาศในการทำงาน"
+        ],
+        "topic": [
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "WORK_STANDARD",
+        "synonym": [
+            "work standard",
+            "เวิร์คสแตนดาร์ด"
+        ],
+        "topic": [
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
+        ]
+    },
+    {
+        "keyword": "ZERO_WASTE",
+        "synonym": [
+            "zero waste"
+        ],
+        "topic": [
+            "POLLUTION_RESOURCES"
+        ]
+    }
+]
