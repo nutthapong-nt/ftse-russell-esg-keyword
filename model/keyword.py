@@ -1,13 +1,14 @@
+from dataclasses import dataclass, field
 from typing import List
 
 from model.local_keyword import LOCAL_KEYWORD
 
-
+@dataclass
 class Keyword:
     
     mainword: str
     word: str
-    topic: List[str]
+    topic: List[str] = field(default_factory=list)
 
     def __init__(self, mainword: str, word: str, topic: List[str]):
         self.mainword = mainword   # the variable name e.g. CARBON_NEUTRALITY
