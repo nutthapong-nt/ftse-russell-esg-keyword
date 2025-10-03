@@ -1,7 +1,7 @@
 from dataclasses import dataclass, field
 from typing import List
 
-from model.local_keyword import LOCAL_KEYWORD
+from th_ftse_keyword_analysis.local_keyword import LOCAL_KEYWORD
 
 
 @dataclass

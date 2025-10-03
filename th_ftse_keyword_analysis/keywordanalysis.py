@@ -1,9 +1,9 @@
 from dataclasses import dataclass, field
 import re
 from typing import Dict, List
-from model.keyword import Keyword, get_keyword_list
-from model.local_keyword import LOCAL_KEYWORD
-from noise import CONJUNCTION, STOPWORD
+from th_ftse_keyword_analysis.keyword import Keyword, get_keyword_list
+from th_ftse_keyword_analysis.local_keyword import LOCAL_KEYWORD
+from th_ftse_keyword_analysis.noise import CONJUNCTION, STOPWORD
 
 
 def cleaning(text: str):
