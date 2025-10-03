@@ -15,3 +15,5 @@ dependencies = []
 where = ["."]
 include = ["th_ftse_keyword_analysis"]
 
+[tool.setuptools.package-data]
+"th_ftse_keyword_analysis" = ["ftse_keywords.json"]
