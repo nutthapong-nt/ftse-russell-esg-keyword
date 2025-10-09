@@ -8,11 +8,10 @@ from th_ftse_keyword_analysis.noise import CONJUNCTION, STOPWORD
 
 def cleaning(text: str):
     # remove noise word
-    pattern = r'\b(?:' + '|'.join(map(re.escape,
-                                      STOPWORD + list(CONJUNCTION))) + r')\b'
-    cleaned = re.sub(pattern, '', text, flags=re.IGNORECASE)
+    pattern = r"\b(?:" + "|".join(map(re.escape, STOPWORD + list(CONJUNCTION))) + r")\b"
+    cleaned = re.sub(pattern, "", text, flags=re.IGNORECASE)
     # remove space
-    cleaned = re.sub(r'\s+', '', cleaned)
+    cleaned = re.sub(r"\s+", "", cleaned)
     return cleaned
 
 
@@ -33,15 +32,24 @@ class KeywordResult:
     keyword: Keyword
     count: int
 
-    def __init__(self,
-                 keyword: Keyword,
-                 count: int):
+    def __init__(self, keyword: Keyword, count: int):
         self.keyword = keyword
         self.count = count
+
+    def dump_json(self):
+        return {
+            "main": self.keyword.mainword,
+            "keyword": self.keyword.word,
+            "count": self.count,
+        }
+
+    def dump_csv(self):
+        return f"{self.keyword.word}={self.count}"
 
 
 @dataclass
 class AnalysisResult:
+    name: str = ""
     biodiversity: int = 0
     climate_change: int = 0
     pollution_resources: int = 0
@@ -88,14 +96,74 @@ class AnalysisResult:
             # unknown topic: optionally store or ignore; here we ignore
             pass
 
+    def dump_json(self):
+        return {
+            "name": self.name,
+            "biodiversity": self.biodiversity,
+            "climate_change": self.climate_change,
+            "pollution_resources": self.pollution_resources,
+            "water_security": self.water_security,
+            "customer_responsibility": self.customer_responsibility,
+            "health_safety": self.health_safety,
+            "human_rights_community": self.human_rights_community,
+            "labor_standard": self.labor_standard,
+            "anti_corruption": self.anti_corruption,
+            "corporate_governance": self.corporate_governance,
+            "risk_management": self.risk_management,
+            "tax_transparency": self.tax_transparency,
+            "supply_chain_environmental": self.supply_chain_environmental,
+            "supply_chain_social": self.supply_chain_social,
+            "keywords": [keyword.dump_json() for keyword in self.keywords],
+        }
 
-def ftse_analysis(text: str, raw_keywords: List[dict] = LOCAL_KEYWORD):
+    def dump_csv(self):
+        keywords = "\n".join(keyword.dump_csv() for keyword in self.keywords)
+        return ",".join(
+            [
+                f'"{self.name}"',
+                f'"{self.biodiversity}"',
+                f'"{self.climate_change}"',
+                f'"{self.pollution_resources}"',
+                f'"{self.water_security}"',
+                f'"{self.customer_responsibility}"',
+                f'"{self.health_safety}"',
+                f'"{self.human_rights_community}"',
+                f'"{self.labor_standard}"',
+                f'"{self.anti_corruption}"',
+                f'"{self.corporate_governance}"',
+                f'"{self.risk_management}"',
+                f'"{self.tax_transparency}"',
+                f'"{self.supply_chain_environmental}"',
+                f'"{self.supply_chain_social}"',
+                f'"{keywords}"',
+            ]
+        )
+
+
+def ftse_analysis(
+    text: str,
+    name: str = "untitle",
+    raw_keywords: List[dict] = LOCAL_KEYWORD,
+    distinct: bool = False,
+) -> AnalysisResult:
     keywords = get_keyword_list(raw_keywords)
-    result = AnalysisResult()
+    result = AnalysisResult(name=name)
     for index, count in enumerate(keyword_count(text, keywords)):
         if not count:
             continue
         result.keywords.append(KeywordResult(keywords[index], count))
         for topic in keywords[index].topic:
-            result.increment_topic(topic, count)
+            if distinct:
+                result.increment_topic(topic, 1)
+            else:
+                result.increment_topic(topic, count)
     return result
+
+
+def convert_to_csv(results: List[AnalysisResult]):
+    buffer = '\ufeff"name","biodiversity","climate_change","pollution_resources","water_security","customer_responsibility","health_safety","human_rights_community","labor_standard","anti_corruption","corporate_governance","risk_management","tax_transparency","supply_chain_environmental","supply_chain_social","keyword"\n'
+    return buffer + "\n".join(result.dump_csv() for result in results)
+
+
+def convert_to_json(results: List[AnalysisResult]):
+    return [result.dump_json() for result in results]
