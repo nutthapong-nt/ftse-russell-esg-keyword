@@ -17,15 +17,23 @@ def cleaning(text: str):
     return cleaned
 
 
-def keyword_count(text: str, keywords: List[Keyword]):
-    clean_text = cleaning(text)
-    result = [0] * len(keywords)
-    for index, keyword in enumerate(keywords):
+class KeywordCount:
+    count: int
+    length: int
+
+    def __init__(self, count: int, length: int):
+        self.count = count
+        self.length = length
+
+
+def keyword_count(text: str, keywords: List[Keyword]) -> List[KeywordCount]:
+    result = []
+    for keyword in keywords:
         clean_keyword = cleaning(keyword.word)
         if not clean_keyword:
             continue
-        result[index] = clean_text.count(clean_keyword)
-        clean_text = clean_text.replace(clean_keyword, "")
+        result.append(KeywordCount(text.count(clean_keyword), len(clean_keyword)))
+        text = text.replace(clean_keyword, "")
     return result
 
 
@@ -33,16 +41,19 @@ def keyword_count(text: str, keywords: List[Keyword]):
 class KeywordResult:
     keyword: Keyword
     count: int
+    keyword_length: int
 
-    def __init__(self, keyword: Keyword, count: int):
+    def __init__(self, keyword: Keyword, count: int, keyword_length: int):
         self.keyword = keyword
         self.count = count
+        self.keyword_length = keyword_length
 
     def dump_json(self):
         return {
             "main": self.keyword.mainword,
             "keyword": self.keyword.word,
             "count": self.count,
+            "keyword_length": self.keyword_length,
         }
 
     def dump_csv(self):
@@ -67,6 +78,7 @@ class AnalysisResult:
     supply_chain_environmental: int = 0
     supply_chain_social: int = 0
     keywords: List[KeywordResult] = field(default_factory=list)
+    text_length: int = 0
 
     def _topic_fields(self) -> Dict[str, str]:
         # map topic keys (used in Keyword.topic) to attribute names on this dataclass
@@ -116,6 +128,7 @@ class AnalysisResult:
             "supply_chain_environmental": self.supply_chain_environmental,
             "supply_chain_social": self.supply_chain_social,
             "keywords": [keyword.dump_json() for keyword in self.keywords],
+            "text_length": self.text_length,
         }
 
     def dump_csv(self):
@@ -148,17 +161,20 @@ def ftse_analysis(
     raw_keywords: List[dict] = LOCAL_KEYWORD,
     distinct: bool = False,
 ) -> AnalysisResult:
+    text = cleaning(text)
     keywords = get_keyword_list(raw_keywords)
-    result = AnalysisResult(name=name)
+    result = AnalysisResult(name=name, text_length=len(text))
     for index, count in enumerate(keyword_count(text, keywords)):
-        if not count:
+        if not count.count:
             continue
-        result.keywords.append(KeywordResult(keywords[index], count))
+        result.keywords.append(
+            KeywordResult(keywords[index], count.count, count.length)
+        )
         for topic in keywords[index].topic:
             if distinct:
                 result.increment_topic(topic, 1)
             else:
-                result.increment_topic(topic, count)
+                result.increment_topic(topic, count.count)
     return result
 
 
