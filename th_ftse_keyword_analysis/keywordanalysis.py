@@ -12,6 +12,8 @@ def cleaning(text: str):
     cleaned = re.sub(pattern, "", text, flags=re.IGNORECASE)
     # remove space
     cleaned = re.sub(r"\s+", "", cleaned)
+    # keep only charector
+    cleaned = re.sub(r"[^0-9a-zA-Zก-๙]", "", cleaned)
     return cleaned
 
 
