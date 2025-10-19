@@ -9,7 +9,7 @@ description = "FTSE Russell ESG keyword analysis in Thai conference transcriptio
 readme = "README.md"
 authors = [{ name = "Nutthapong Pinrod", email = "nutthapong_nt@hotmail.com" }]
 requires-python = ">=3.8"
-dependencies = []
+dependencies = ["pythainlp"]
 
 [tool.setuptools.packages.find]
 where = ["."]

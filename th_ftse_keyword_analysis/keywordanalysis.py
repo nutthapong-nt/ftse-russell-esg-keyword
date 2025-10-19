@@ -1,6 +1,8 @@
 from dataclasses import dataclass, field
 import re
 from typing import Dict, List
+
+import pythainlp
 from th_ftse_keyword_analysis.keyword import Keyword, get_keyword_list
 from th_ftse_keyword_analysis.local_keyword import LOCAL_KEYWORD
 from th_ftse_keyword_analysis.noise import CONJUNCTION, STOPWORD
@@ -26,15 +28,21 @@ class KeywordCount:
         self.length = length
 
 
-def keyword_count(text: str, keywords: List[Keyword]) -> List[KeywordCount]:
-    result = []
+def keyword_count(text: str, keywords: List[Keyword]):
+    result: List[KeywordCount] = []
+    keywords_count = 0
     for keyword in keywords:
         clean_keyword = cleaning(keyword.word)
         if not clean_keyword:
             continue
-        result.append(KeywordCount(text.count(clean_keyword), len(clean_keyword)))
-        text = text.replace(clean_keyword, "")
-    return result
+        word_count = text.count(clean_keyword)
+        keywords_count += word_count
+        result.append(KeywordCount(word_count, len(clean_keyword)))
+        text = text.replace(clean_keyword, " ")
+    text_word_count = (
+        len(pythainlp.word_tokenize(text, engine="newmm")) + keywords_count
+    )
+    return result, text_word_count
 
 
 @dataclass
@@ -79,6 +87,7 @@ class AnalysisResult:
     supply_chain_social: int = 0
     keywords: List[KeywordResult] = field(default_factory=list)
     text_length: int = 0
+    text_word_count: int = 0
 
     def _topic_fields(self) -> Dict[str, str]:
         # map topic keys (used in Keyword.topic) to attribute names on this dataclass
@@ -129,6 +138,7 @@ class AnalysisResult:
             "supply_chain_social": self.supply_chain_social,
             "keywords": [keyword.dump_json() for keyword in self.keywords],
             "text_length": self.text_length,
+            "text_word_count": self.text_word_count,
         }
 
     def dump_csv(self):
@@ -136,6 +146,8 @@ class AnalysisResult:
         return ",".join(
             [
                 f'"{self.name}"',
+                f'"{self.text_length}"',
+                f'"{self.text_word_count}"',
                 f'"{self.biodiversity}"',
                 f'"{self.climate_change}"',
                 f'"{self.pollution_resources}"',
@@ -164,7 +176,9 @@ def ftse_analysis(
     text = cleaning(text)
     keywords = get_keyword_list(raw_keywords)
     result = AnalysisResult(name=name, text_length=len(text))
-    for index, count in enumerate(keyword_count(text, keywords)):
+    list_keyword_count, total_word_count = keyword_count(text, keywords)
+    result.text_word_count = total_word_count
+    for index, count in enumerate(list_keyword_count):
         if not count.count:
             continue
         result.keywords.append(
@@ -179,7 +193,7 @@ def ftse_analysis(
 
 
 def convert_to_csv(results: List[AnalysisResult]):
-    buffer = '\ufeff"name","biodiversity","climate_change","pollution_resources","water_security","customer_responsibility","health_safety","human_rights_community","labor_standard","anti_corruption","corporate_governance","risk_management","tax_transparency","supply_chain_environmental","supply_chain_social","keyword"\n'
+    buffer = '\ufeff"name","text_length","text_word_count","biodiversity","climate_change","pollution_resources","water_security","customer_responsibility","health_safety","human_rights_community","labor_standard","anti_corruption","corporate_governance","risk_management","tax_transparency","supply_chain_environmental","supply_chain_social","keyword"\n'
     return buffer + "\n".join(result.dump_csv() for result in results)
 
 
