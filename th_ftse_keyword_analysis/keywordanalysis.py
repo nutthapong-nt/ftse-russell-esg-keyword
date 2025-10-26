@@ -66,6 +66,23 @@ class KeywordResult:
 
     def dump_csv(self):
         return f"{self.keyword.word}={self.count}"
+    
+    def copy(self):
+        return KeywordResult(keyword=self.keyword,count=self.count,keyword_length=self.keyword_length)
+
+
+def merge_keyword_lists(list1: List[KeywordResult], list2: List[KeywordResult]) -> List[KeywordResult]:
+    merged: Dict[str, KeywordResult] = {}
+
+    # Combine all keywords and sum counts
+    for kr in list1 + list2:
+        if kr.keyword.word in merged:
+            merged[kr.keyword.word].count += kr.count
+        else:
+            merged[kr.keyword.word] = kr.copy()
+
+    # Convert back to list of KeywordResult
+    return [merged[k] for k in merged]
 
 
 @dataclass
@@ -165,6 +182,29 @@ class AnalysisResult:
                 f'"{keywords}"',
             ]
         )
+    
+    def __add__(self,other):
+        if not isinstance(other,AnalysisResult):
+            raise TypeError(f"AnalysisResult can add with AnalysisResult but detect {type(other)}")
+        new_result = AnalysisResult(name=self.name+","+other.name)
+        new_result.biodiversity = other.biodiversity + self.biodiversity
+        new_result.climate_change = other.climate_change + self.climate_change
+        new_result.pollution_resources = other.pollution_resources + self.pollution_resources
+        new_result.water_security = other.water_security + self.water_security
+        new_result.customer_responsibility = other.customer_responsibility + self.customer_responsibility
+        new_result.health_safety = other.health_safety + self.health_safety
+        new_result.human_rights_community = other.human_rights_community + self.human_rights_community
+        new_result.labor_standard = other.labor_standard + self.labor_standard
+        new_result.anti_corruption = other.anti_corruption + self.anti_corruption
+        new_result.corporate_governance = other.corporate_governance + self.corporate_governance
+        new_result.risk_management = other.risk_management + self.risk_management
+        new_result.tax_transparency = other.tax_transparency + self.tax_transparency
+        new_result.supply_chain_environmental = other.supply_chain_environmental + self.supply_chain_environmental
+        new_result.supply_chain_social = other.supply_chain_social + self.supply_chain_social
+        new_result.text_length = other.text_length+ self.text_length
+        new_result.text_word_count = other.text_word_count+ self.text_word_count
+        new_result.keywords = merge_keyword_lists(self.keywords,other.keywords)
+        return new_result
 
 
 def ftse_analysis(

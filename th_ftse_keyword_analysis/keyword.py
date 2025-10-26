@@ -18,6 +18,11 @@ class Keyword:
 
     def __repr__(self):
         return f"Keyword(mainword='{self.mainword}', word='{self.word}', topic={self.topic})"
+    
+    def __eq__(self, value):
+        if not isinstance(value,Keyword):
+            return False
+        return self.word == value.word
 
 def validate_keyword_list(data):
     if not isinstance(data, list):
