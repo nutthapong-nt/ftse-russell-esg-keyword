@@ -61,7 +61,7 @@ def calculate_tfidf(
     for result in results:
         seen = set()
         for kr in result.keywords:
-            kname = kr.keyword.word
+            kname = kr.keyword.mainword
             if kname not in seen:
                 df[kname] = df.get(kname, 0) + 1
                 seen.add(kname)
@@ -77,7 +77,7 @@ def calculate_tfidf(
         tfidf_scores = {}
 
         for kr in result.keywords:
-            keyword = kr.keyword.word
+            keyword = kr.keyword.mainword
             tf = kr.count / base
             idf = math.log(total_document / (1 + df.get(keyword, 0)))
             tfidf_scores[keyword] = tf * idf
