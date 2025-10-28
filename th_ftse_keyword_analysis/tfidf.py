@@ -18,6 +18,7 @@ class WordStat:
 @dataclass
 class TFIDFResult:
     document_name: str
+    document_word_count: int
     words: Dict[str, WordStat] = field(default_factory=dict)
 
     def dump_json(self) -> List[Dict[str, Any]]:
@@ -27,6 +28,7 @@ class TFIDFResult:
                 "name": self.document_name,
                 "word": word,
                 "frequency": stat.frequency,
+                "document_word_count":self.document_word_count,
                 "tfidf": stat.tfidf,
             }
             for word, stat in self.words.items()
@@ -35,7 +37,7 @@ class TFIDFResult:
     def dump_csv(self) -> str:
         """Return TF-IDF and frequency data in CSV format (without header)."""
         return "\n".join(
-            f'"{self.document_name}","{word}",{stat.frequency},{stat.tfidf:.6f}'
+            f'"{self.document_name}","{word}",{stat.frequency},{self.document_word_count},{stat.tfidf:.6f}'
             for word, stat in self.words.items()
         )
 
@@ -47,11 +49,13 @@ def tfidf_to_json(results: List[TFIDFResult]) -> List[Dict[str, Any]]:
 
 def tfidf_to_csv(results: List[TFIDFResult]) -> str:
     """Convert a list of TFIDFResult to CSV."""
-    header = '\ufeff"name","word","frequency","tfidf-score"\n'
+    header = '\ufeff"name","word","frequency","document_word_count","tfidf-score"\n'
     return header + "\n".join(result.dump_csv() for result in results)
 
 
-def calculate_tfidf(results:List[AnalysisResult], use_keyword_count: bool = False) -> List[TFIDFResult]:
+def calculate_tfidf(
+    results: List[AnalysisResult], use_keyword_count: bool = False
+) -> List[TFIDFResult]:
     """
     Calculate TF-IDF for each keyword in each AnalysisResult.
     - If use_keyword_count=True, TF = count / sum(keyword counts)
@@ -89,6 +93,10 @@ def calculate_tfidf(results:List[AnalysisResult], use_keyword_count: bool = Fals
             idf = log(total_docs / (1 + df[word]))
             words[word] = WordStat(frequency=freq, tfidf=tf * idf)
 
-        tfidf_results.append(TFIDFResult(document_name=r.name, words=words))
+        tfidf_results.append(
+            TFIDFResult(
+                document_name=r.name, document_word_count=r.text_word_count, words=words
+            )
+        )
 
     return tfidf_results
