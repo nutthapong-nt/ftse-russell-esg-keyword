@@ -235,7 +235,10 @@
     {
         "keyword": "CARBON_FOOTPRINT",
         "synonym": [
-            "คาร์บอนฟุตปริ้น"
+            "คาร์บอนฟุตปริ้น",
+            "คาร์บอนฟุตพรินต์",
+            "คาร์บอนฟุตพริ้นท์",
+            "carbon footprint"
         ],
         "topic": [
             "CLIMATE_CHANGE",
@@ -259,7 +262,7 @@
         "synonym": [
             "คาร์บอนสุทธิเป็นศูนย์",
             "เป็นกลางทางคาร์บอน",
-            "คาร์บอน Natural",
+            "คาร์บอน Neutral",
             "เน็ตซีโร่",
             "เน็ต zero",
             "net zero",
@@ -333,7 +336,7 @@
         "synonym": [
             "CEO",
             "ประธานเจ้าหน้าที่บริหาร",
-            "ประธานผู่บริหาร"
+            "ประธานผู้บริหาร"
         ],
         "topic": [
             "CORPORATE_GOVERNANCE"
@@ -573,7 +576,7 @@
         ]
     },
     {
-        "keyword": "CONTACT",
+        "keyword": "CONTRACT",
         "synonym": [
             "สัญญา"
         ],
@@ -792,7 +795,7 @@
     {
         "keyword": "DRAIN_WATER",
         "synonym": [
-            "ระบายน้้ำ"
+            "ระบายน้ำ"
         ],
         "topic": [
             "WATER_SECURITY"
@@ -1319,7 +1322,7 @@
         "keyword": "HUMAN_RESOURCE",
         "synonym": [
             "ด้านบุคลากร",
-            "ทรัพยากรบุคคลร"
+            "ทรัพยากรบุคคล"
         ],
         "topic": [
             "LABOR_STANDARD"
@@ -1666,7 +1669,7 @@
         ]
     },
     {
-        "keyword": "PATICIPATE",
+        "keyword": "PARTICIPATE",
         "synonym": [
             "มีส่วนร่วม"
         ],
@@ -1689,7 +1692,7 @@
         ]
     },
     {
-        "keyword": "PLANING",
+        "keyword": "PLANNING",
         "synonym": [
             "แผนรองรับ",
             "วางแผน",
@@ -1722,7 +1725,7 @@
         ]
     },
     {
-        "keyword": "POLUTION",
+        "keyword": "POLLUTION",
         "synonym": [
             "มลพิษ",
             "มลภาวะ"
