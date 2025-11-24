@@ -5,7 +5,8 @@
             "accident"
         ],
         "topic": [
-            "HEALTH_SAFETY"
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -16,7 +17,10 @@
             "สวนป่า"
         ],
         "topic": [
-            "BIODIVERSITY"
+            "BIODIVERSITY",
+            "CLIMATE_CHANGE",
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES"
         ]
     },
     {
@@ -27,7 +31,8 @@
             "เซอร์วิสหลังการขาย"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -37,6 +42,8 @@
             "วัสดุทางการเกษตร"
         ],
         "topic": [
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -59,6 +66,8 @@
             "เชื้อเพลิงสะอาด"
         ],
         "topic": [
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "CLIMATE_CHANGE"
         ]
     },
@@ -68,6 +77,9 @@
             "เยียวยา"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
             "CUSTOMER_RESPONSIBILITY"
         ]
     },
@@ -79,7 +91,10 @@
             "ต่อต้านคอร์รัปชั่น"
         ],
         "topic": [
-            "ANTI_CORRUPTION"
+            "ANTI_CORRUPTION",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -88,7 +103,10 @@
             "ป.ป.ช"
         ],
         "topic": [
-            "ANTI_CORRUPTION"
+            "ANTI_CORRUPTION",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -111,7 +129,8 @@
         ],
         "topic": [
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -122,7 +141,8 @@
         ],
         "topic": [
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -133,7 +153,8 @@
         "topic": [
             "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -142,11 +163,10 @@
             "ระวัง"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "HEALTH_SAFETY",
-            "LABOR_STANDARD",
             "CORPORATE_GOVERNANCE",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "CUSTOMER_RESPONSIBILITY",
+            "LABOR_STANDARD",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -157,7 +177,9 @@
             "ความหลากหลายทางชีวภาพ"
         ],
         "topic": [
-            "BIODIVERSITY"
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "CLIMATE_CHANGE"
         ]
     },
     {
@@ -166,8 +188,10 @@
             "biosynthesis"
         ],
         "topic": [
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "HEALTH_SAFETY"
         ]
     },
     {
@@ -176,7 +200,10 @@
             "bio security"
         ],
         "topic": [
-            "HEALTH_SAFETY"
+            "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -185,7 +212,10 @@
             "ประธานคณะกรรมการ"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION",
+            "TAX_TRANSPARENCY"
         ]
     },
     {
@@ -194,7 +224,10 @@
             "คณะกรรมการบริษัท"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION",
+            "TAX_TRANSPARENCY"
         ]
     },
     {
@@ -203,7 +236,11 @@
             "เผา"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -219,7 +256,9 @@
         "topic": [
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "WATER_SECURITY"
         ]
     },
     {
@@ -229,6 +268,7 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -243,7 +283,6 @@
         "topic": [
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES",
-            "CUSTOMER_RESPONSIBILITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -254,7 +293,8 @@
             "การบริหาร co2"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -271,7 +311,8 @@
             "zero emission"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -280,6 +321,7 @@
             "คาร์บอนซัพพลายเชน"
         ],
         "topic": [
+            "CLIMATE_CHANGE",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -289,7 +331,8 @@
             "carbon target"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -300,7 +343,7 @@
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD",
-            "SUPPLY_CHAIN_SOCIAL"
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
@@ -309,7 +352,9 @@
             "ประมาท"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "HEALTH_SAFETY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -319,6 +364,7 @@
             "เงินสด"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "RISK_MANAGEMENT"
         ]
     },
@@ -328,6 +374,7 @@
             "กระแสเงินสด"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "RISK_MANAGEMENT"
         ]
     },
@@ -343,7 +390,7 @@
         ]
     },
     {
-        "keyword": "CFC",
+        "keyword": "CHLOROFLUOROCARBON",
         "synonym": [
             "cfc",
             "r12",
@@ -351,8 +398,7 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "POLLUTION_RESOURCES"
         ]
     },
     {
@@ -362,6 +408,8 @@
             "การกุศล"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -371,7 +419,9 @@
             "โกง"
         ],
         "topic": [
-            "ANTI_CORRUPTION"
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -380,8 +430,9 @@
             "circular economy"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "HUMAN_RIGHTS_COMMUNITY"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "CLIMATE_CHANGE"
         ]
     },
     {
@@ -394,7 +445,8 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -404,7 +456,9 @@
             "น้ำดี"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -413,7 +467,9 @@
             "climate action"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -424,7 +480,9 @@
             "การเปลี่ยนแปลงสภาพภูมิอากาศ"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -434,8 +492,9 @@
             "คอมมิทเม้น"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
@@ -464,6 +523,7 @@
             "community business"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -474,7 +534,10 @@
             "ช่วยเหลือชุมชน"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY"
+            "HUMAN_RIGHTS_COMMUNITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -485,7 +548,9 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "POLLUTION_RESOURCES",
+            "CLIMATE_CHANGE"
         ]
     },
     {
@@ -496,6 +561,8 @@
             "คืนสู่สังคม"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -506,7 +573,10 @@
             "OTOP"
         ],
         "topic": [
-            "SUPPLY_CHAIN_SOCIAL"
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -515,8 +585,11 @@
             "สร้างรายได้ให้"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "LABOR_STANDARD",
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -525,6 +598,8 @@
             "คุณค่าทางสังคม"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -535,18 +610,14 @@
             "คู่แข่ง",
             "competitive"
         ],
-        "topic": [
-            "RISK_MANAGEMENT"
-        ]
+        "topic": []
     },
     {
         "keyword": "CONFIDENT",
         "synonym": [
             "มั่นใจ"
         ],
-        "topic": [
-            "CUSTOMER_RESPONSIBILITY"
-        ]
+        "topic": []
     },
     {
         "keyword": "CONSERVE",
@@ -554,7 +625,10 @@
             "อนุรักษ์"
         ],
         "topic": [
-            "BIODIVERSITY"
+            "BIODIVERSITY",
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -563,15 +637,21 @@
             "อนุรักษ์ทรัพยากรน้ำ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "BIODIVERSITY",
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
         "keyword": "CONSISTENCY",
         "synonym": [
-            "consistency"
+            "consistency",
+            "สม่ำเสมอ",
+            "คงเส้นคงวา"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "CUSTOMER_RESPONSIBILITY"
         ]
     },
@@ -581,7 +661,10 @@
             "สัญญา"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "SUPPLY_CHAIN_SOCIAL",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -591,7 +674,8 @@
             "สบาย"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -601,6 +685,7 @@
         ],
         "topic": [
             "BIODIVERSITY",
+            "WATER_SECURITY",
             "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
@@ -632,9 +717,11 @@
             "ถูกต้อง"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
             "CUSTOMER_RESPONSIBILITY",
-            "LABOR_STANDARD",
-            "CORPORATE_GOVERNANCE"
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -645,6 +732,9 @@
             "คอร์รัปชั่น"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
+            "HUMAN_RIGHTS_COMMUNITY",
             "ANTI_CORRUPTION"
         ]
     },
@@ -663,7 +753,10 @@
             "ศาล"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION"
         ]
     },
     {
@@ -672,6 +765,8 @@
             "วิกฤต"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
             "RISK_MANAGEMENT"
         ]
     },
@@ -682,7 +777,10 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
-            "SUPPLY_CHAIN_SOCIAL"
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
+            "RISK_MANAGEMENT",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -691,7 +789,9 @@
             "ฐานลูกค้า"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -703,7 +803,9 @@
             "ปัจจัย customer"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -716,7 +818,9 @@
             "พฤติกรรมผู้บริโภค"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -727,6 +831,7 @@
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
             "RISK_MANAGEMENT"
         ]
     },
@@ -737,7 +842,8 @@
             "ดูแลผู้บริโภค"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -747,7 +853,8 @@
             "cyber security"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -756,13 +863,17 @@
             "การจัดการหนี้เสีย"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE",
+            "TAX_TRANSPARENCY"
         ]
     },
     {
         "keyword": "DEFECT_PRODUCT",
         "synonym": [
-            "สินค้า defect"
+            "สินค้า defect",
+            "สินค้าเสียหาย",
+            "สินค้าชำรุด"
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY"
@@ -777,6 +888,8 @@
         ],
         "topic": [
             "BIODIVERSITY",
+            "WATER_SECURITY",
+            "CLIMATE_CHANGE",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -789,6 +902,8 @@
             "กระจายการลงทุน"
         ],
         "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL",
             "RISK_MANAGEMENT"
         ]
     },
@@ -798,7 +913,10 @@
             "ระบายน้ำ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -807,7 +925,11 @@
             "น้ำดื่ม"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -818,7 +940,9 @@
             "เขม่า"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -828,8 +952,9 @@
             "จัดการฝุ่น"
         ],
         "topic": [
+            "HEALTH_SAFETY",
             "POLLUTION_RESOURCES",
-            "HEALTH_SAFETY"
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -838,6 +963,9 @@
             "ecosystem"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -848,6 +976,7 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
+            "HEALTH_SAFETY",
             "RISK_MANAGEMENT",
             "SUPPLY_CHAIN_ENVIRONMENTAL",
             "SUPPLY_CHAIN_SOCIAL"
@@ -871,9 +1000,9 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
+            "CUSTOMER_RESPONSIBILITY",
             "POLLUTION_RESOURCES",
-            "WATER_SECURITY",
-            "CUSTOMER_RESPONSIBILITY"
+            "WATER_SECURITY"
         ]
     },
     {
@@ -882,6 +1011,9 @@
             "eia"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
@@ -893,7 +1025,9 @@
             "ยานยนต์ไฟฟ้า"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -903,7 +1037,9 @@
             "การปลดปล่อย"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -917,7 +1053,9 @@
         ],
         "topic": [
             "LABOR_STANDARD",
-            "SUPPLY_CHAIN_SOCIAL"
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -927,7 +1065,10 @@
             "บุคลากร"
         ],
         "topic": [
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -936,7 +1077,9 @@
             "จำนวนพนักงาน"
         ],
         "topic": [
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -945,7 +1088,9 @@
             "เงินเดือนพนักงาน"
         ],
         "topic": [
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -957,6 +1102,8 @@
             "ดูแลพนักงาน"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD"
         ]
     },
@@ -966,9 +1113,10 @@
             "สนับสนุนนโยบาย"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY",
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -978,7 +1126,9 @@
             "บริหารจัดการพลังงาน"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "CLIMATE_CHANGE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -991,7 +1141,8 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1000,6 +1151,8 @@
             "ความมั่นคงทางพลังงาน"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "POLLUTION_RESOURCES",
             "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
@@ -1012,7 +1165,9 @@
         "topic": [
             "BIODIVERSITY",
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1026,7 +1181,8 @@
         "topic": [
             "BIODIVERSITY",
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1035,8 +1191,11 @@
             "รักษาสิ่งแวดล้อม"
         ],
         "topic": [
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "WATER_SECURITY"
         ]
     },
     {
@@ -1045,10 +1204,10 @@
             "จรรยาบรรณ"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "HUMAN_RIGHTS_COMMUNITY",
             "ANTI_CORRUPTION",
             "CORPORATE_GOVERNANCE",
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1058,6 +1217,7 @@
             "อัตราแลกเปลี่ยน"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "RISK_MANAGEMENT"
         ]
     },
@@ -1067,7 +1227,8 @@
             "คาดการณ์"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1077,11 +1238,11 @@
             "เป็นธรรม"
         ],
         "topic": [
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
             "CUSTOMER_RESPONSIBILITY",
             "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD",
-            "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1092,7 +1253,9 @@
         ],
         "topic": [
             "POLLUTION_RESOURCES",
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1101,7 +1264,9 @@
             "กรอง"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1110,7 +1275,9 @@
             "น้ำท่วม"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1120,6 +1287,9 @@
         ],
         "topic": [
             "BIODIVERSITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "WATER_SECURITY",
+            "CLIMATE_CHANGE",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1131,7 +1301,9 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1140,6 +1312,8 @@
             "มูลนิธิ"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1149,18 +1323,20 @@
             "ประหยัดน้ำมัน"
         ],
         "topic": [
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "POLLUTION_RESOURCES"
         ]
     },
     {
-        "keyword": "GOOD_NEIGHBOR",
+        "keyword": "COMMUNITY_ENGAGEMENT",
         "synonym": [
             "เพื่อนบ้านที่ดี"
         ],
         "topic": [
-            "POLLUTION_RESOURCES",
             "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1170,6 +1346,8 @@
             "สังคมดี"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1183,7 +1361,8 @@
         ],
         "topic": [
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -1209,8 +1388,9 @@
         "topic": [
             "BIODIVERSITY",
             "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "POLLUTION_RESOURCES"
         ]
     },
     {
@@ -1220,7 +1400,8 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1230,8 +1411,8 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES",
             "CUSTOMER_RESPONSIBILITY",
+            "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1244,7 +1425,9 @@
             "กรีนโปรดักส์"
         ],
         "topic": [
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
+            "CUSTOMER_RESPONSIBILITY",
             "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
@@ -1260,6 +1443,7 @@
             "green Concept"
         ],
         "topic": [
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
@@ -1271,6 +1455,8 @@
             "แหล่งน้ำใต้ดิน"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
             "WATER_SECURITY"
         ]
     },
@@ -1280,6 +1466,7 @@
             "รับรอง"
         ],
         "topic": [
+            "CUSTOMER_RESPONSIBILITY",
             "ANTI_CORRUPTION",
             "CORPORATE_GOVERNANCE"
         ]
@@ -1292,8 +1479,9 @@
             "ร่วมแรงร่วมใจ"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
             "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1304,8 +1492,9 @@
             "ซื่อสัตย์"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "CORPORATE_GOVERNANCE"
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
@@ -1314,8 +1503,9 @@
             "หนี้ครัวเรือน"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY",
-            "SUPPLY_CHAIN_SOCIAL"
+            "RISK_MANAGEMENT",
+            "CUSTOMER_RESPONSIBILITY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1325,7 +1515,10 @@
             "ทรัพยากรบุคคล"
         ],
         "topic": [
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -1335,7 +1528,10 @@
             "สิทธิมนุษยชน"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY"
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
@@ -1344,6 +1540,7 @@
             "hydrogen"
         ],
         "topic": [
+            "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES"
         ]
     },
@@ -1354,6 +1551,7 @@
             "โรงไฟฟ้าไฮโดร"
         ],
         "topic": [
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES",
             "WATER_SECURITY"
@@ -1365,6 +1563,8 @@
             "ผิดกฎหมาย"
         ],
         "topic": [
+            "ANTI_CORRUPTION",
+            "RISK_MANAGEMENT",
             "CORPORATE_GOVERNANCE"
         ]
     },
@@ -1373,9 +1573,7 @@
         "synonym": [
             "ประทับใจ"
         ],
-        "topic": [
-            "CUSTOMER_RESPONSIBILITY"
-        ]
+        "topic": []
     },
     {
         "keyword": "INCENTIVE",
@@ -1383,6 +1581,8 @@
             "อินเซนทีฟ"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
             "LABOR_STANDARD"
         ]
     },
@@ -1393,9 +1593,10 @@
             "ติดเชื้อ"
         ],
         "topic": [
-            "POLLUTION_RESOURCES",
-            "WATER_SECURITY",
-            "HEALTH_SAFETY"
+            "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "LABOR_STANDARD",
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
@@ -1405,7 +1606,8 @@
         ],
         "topic": [
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -1414,7 +1616,8 @@
             "ประกัน"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1423,7 +1626,8 @@
             "ความต้องการนักลงทุน"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1432,7 +1636,9 @@
             "ชลประทาน"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1441,7 +1647,9 @@
             "พิพากษา"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -1451,6 +1659,7 @@
             "เข้าใจ"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "LABOR_STANDARD"
         ]
     },
@@ -1461,7 +1670,11 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
-            "LABOR_STANDARD"
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1471,8 +1684,11 @@
             "landfill"
         ],
         "topic": [
-            "BIODIVERSITY",
             "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "CLIMATE_CHANGE",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1484,12 +1700,13 @@
             "ข้อบังคับ"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD",
             "ANTI_CORRUPTION",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_SOCIAL",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1498,7 +1715,10 @@
             "วิสัยทัศน์ผู้บริหาร"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -1508,7 +1728,10 @@
             "เศรษฐกิจในชุมชน"
         ],
         "topic": [
-            "HUMAN_RIGHTS_COMMUNITY"
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1518,7 +1741,8 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1528,7 +1752,11 @@
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -1543,6 +1771,7 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1552,7 +1781,8 @@
             "กรรมการผู้จัดการใหญ่"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "ANTI_CORRUPTION"
         ]
     },
     {
@@ -1562,7 +1792,10 @@
         ],
         "topic": [
             "BIODIVERSITY",
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1574,7 +1807,8 @@
             "แก้ปัญหาให้ลูกค้า"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY"
         ]
     },
     {
@@ -1583,7 +1817,11 @@
             "ค่าแรงขั้นต่ำ"
         ],
         "topic": [
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1593,7 +1831,8 @@
             "มอนิเตอร์"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1603,6 +1842,8 @@
             "ธรรมชาติ"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "POLLUTION_RESOURCES"
         ]
     },
@@ -1612,7 +1853,10 @@
             "แหล่งน้ำธรรมชาติ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "POLLUTION_RESOURCES",
+            "BIODIVERSITY"
         ]
     },
     {
@@ -1624,7 +1868,9 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1634,7 +1880,9 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1645,6 +1893,8 @@
         ],
         "topic": [
             "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1655,16 +1905,22 @@
             "ออร์แกนิคเวสต์"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "CLIMATE_CHANGE",
+            "WATER_SECURITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
         "keyword": "PAPERLESS",
         "synonym": [
-            "เปเปอร์เรท"
+            "เปเปอร์เรท",
+            "ไม่ใช้กระดาษ",
+            "ลดการใช้กระดาษ"
         ],
         "topic": [
             "POLLUTION_RESOURCES",
+            "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1675,6 +1931,8 @@
         ],
         "topic": [
             "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "LABOR_STANDARD",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -1684,6 +1942,7 @@
             "People Centric"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
             "CUSTOMER_RESPONSIBILITY",
             "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
@@ -1700,7 +1959,8 @@
             "planning"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1711,27 +1971,28 @@
         ],
         "topic": [
             "POLLUTION_RESOURCES",
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "BIODIVERSITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
         "keyword": "POLLUTION",
         "synonym": [
             "สารปนเปื้อน",
-            "ปนเปื้อน"
-        ],
-        "topic": [
-            "POLLUTION_RESOURCES"
-        ]
-    },
-    {
-        "keyword": "POLLUTION",
-        "synonym": [
+            "ปนเปื้อน",
             "มลพิษ",
             "มลภาวะ"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "BIODIVERSITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -1740,6 +2001,8 @@
             "ศักยภาพ"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE",
             "LABOR_STANDARD"
         ]
     },
@@ -1750,7 +2013,8 @@
             "เตรียมตัว"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1759,8 +2023,9 @@
             "productive"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY",
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HEALTH_SAFETY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1770,8 +2035,11 @@
             "มืออาชีพ"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "ANTI_CORRUPTION",
             "CUSTOMER_RESPONSIBILITY",
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HEALTH_SAFETY"
         ]
     },
     {
@@ -1781,7 +2049,10 @@
             "คุณภาพ"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -1792,7 +2063,11 @@
             "quality management"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1817,16 +2092,20 @@
             "พิถีพิถันในการผลิต"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
-        "keyword": "QUALITY_OF_WORK",
+        "keyword": "QUALITY_OF_WORKING",
         "synonym": [
             "คุณภาพในการทำงาน"
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
             "HEALTH_SAFETY",
             "LABOR_STANDARD"
         ]
@@ -1838,7 +2117,10 @@
             "คำถาม"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -1847,7 +2129,8 @@
             "ฝน"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1856,7 +2139,8 @@
             "ฤดูฝน"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1865,7 +2149,9 @@
             "น้ำดิบ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -1889,6 +2175,8 @@
             "ลดสารเคมี"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "WATER_SECURITY",
             "POLLUTION_RESOURCES",
             "CUSTOMER_RESPONSIBILITY"
         ]
@@ -1903,6 +2191,8 @@
             "ลดตัวพลาสติก"
         ],
         "topic": [
+            "POLLUTION_RESOURCES",
+            "BIODIVERSITY",
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES"
         ]
@@ -1914,9 +2204,12 @@
             "regional"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "CUSTOMER_RESPONSIBILITY",
             "HUMAN_RIGHTS_COMMUNITY",
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -1930,7 +2223,10 @@
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
-            "CORPORATE_GOVERNANCE"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE",
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD"
         ]
     },
     {
@@ -1943,6 +2239,9 @@
             "พลังงานทางเลือก"
         ],
         "topic": [
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "CLIMATE_CHANGE"
         ]
     },
@@ -1953,6 +2252,8 @@
             "วัตถุดิบ"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "RISK_MANAGEMENT",
             "POLLUTION_RESOURCES"
         ]
     },
@@ -1963,6 +2264,7 @@
         ],
         "topic": [
             "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -1974,6 +2276,8 @@
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
             "CORPORATE_GOVERNANCE",
             "SUPPLY_CHAIN_ENVIRONMENTAL",
             "SUPPLY_CHAIN_SOCIAL"
@@ -1986,7 +2290,11 @@
         ],
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -1995,6 +2303,8 @@
             "ฟื้นฟู"
         ],
         "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "WATER_SECURITY",
             "BIODIVERSITY"
         ]
     },
@@ -2004,7 +2314,10 @@
             "Revenue Department"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "TAX_TRANSPARENCY",
+            "ANTI_CORRUPTION",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2014,6 +2327,8 @@
             "ความกังวล"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "ANTI_CORRUPTION",
             "RISK_MANAGEMENT"
         ]
     },
@@ -2023,6 +2338,8 @@
             "ประเมินความเสี่ยง"
         ],
         "topic": [
+            "CORPORATE_GOVERNANCE",
+            "ANTI_CORRUPTION",
             "RISK_MANAGEMENT"
         ]
     },
@@ -2032,7 +2349,11 @@
             "ประกันความเสี่ยง"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2043,7 +2364,9 @@
             "จัดการความเสี่ยง"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2053,7 +2376,9 @@
             "ลดความเสี่ยง"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2062,6 +2387,10 @@
             "แม่น้ำ"
         ],
         "topic": [
+            "WATER_SECURITY",
+            "BIODIVERSITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "HUMAN_RIGHTS_COMMUNITY",
             "POLLUTION_RESOURCES"
         ]
     },
@@ -2075,7 +2404,9 @@
             "CUSTOMER_RESPONSIBILITY",
             "HEALTH_SAFETY",
             "LABOR_STANDARD",
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_SOCIAL",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2084,6 +2415,8 @@
             "ประหยัด"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "POLLUTION_RESOURCES",
             "CUSTOMER_RESPONSIBILITY"
         ]
     },
@@ -2093,6 +2426,9 @@
             "ประหยัดน้ำ"
         ],
         "topic": [
+            "HUMAN_RIGHTS_COMMUNITY",
+            "POLLUTION_RESOURCES",
+            "CUSTOMER_RESPONSIBILITY",
             "WATER_SECURITY"
         ]
     },
@@ -2127,6 +2463,9 @@
         "topic": [
             "WATER_SECURITY",
             "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CORPORATE_GOVERNANCE",
             "LABOR_STANDARD",
             "RISK_MANAGEMENT"
         ]
@@ -2146,7 +2485,9 @@
             "ประชุมผู้ถือหุ้น"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "ANTI_CORRUPTION",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2156,7 +2497,11 @@
             "ผู้ประกอบการขนาดเล็ก"
         ],
         "topic": [
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "LABOR_STANDARD",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -2170,7 +2515,12 @@
             "ช่วยเกษตรกร"
         ],
         "topic": [
-            "SUPPLY_CHAIN_SOCIAL"
+            "CUSTOMER_RESPONSIBILITY",
+            "LABOR_STANDARD",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_SOCIAL",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -2183,7 +2533,10 @@
             "พลังงานแสงอาทิตย์"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -2193,6 +2546,9 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY"
         ]
     },
@@ -2202,7 +2558,7 @@
             "space management"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2217,7 +2573,8 @@
             "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD",
             "CORPORATE_GOVERNANCE",
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2231,7 +2588,10 @@
             "certified"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CORPORATE_GOVERNANCE",
+            "LABOR_STANDARD",
+            "CUSTOMER_RESPONSIBILITY",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2240,6 +2600,7 @@
             "กลยุทธ์"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
             "CORPORATE_GOVERNANCE"
         ]
     },
@@ -2251,7 +2612,8 @@
         "topic": [
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES",
-            "HEALTH_SAFETY"
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -2260,6 +2622,8 @@
             "ต้นทุน supplier"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -2269,6 +2633,8 @@
             "ปรับปรุง supplier"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "SUPPLY_CHAIN_SOCIAL"
         ]
     },
@@ -2280,12 +2646,16 @@
             "ระยะยาว"
         ],
         "topic": [
+            "CLIMATE_CHANGE",
+            "BIODIVERSITY",
             "POLLUTION_RESOURCES",
             "CUSTOMER_RESPONSIBILITY",
             "CORPORATE_GOVERNANCE",
             "RISK_MANAGEMENT",
             "SUPPLY_CHAIN_ENVIRONMENTAL",
-            "SUPPLY_CHAIN_SOCIAL"
+            "SUPPLY_CHAIN_SOCIAL",
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2294,6 +2664,9 @@
             "sustainable materials"
         ],
         "topic": [
+            "CLIMATE_CHANGE",
+            "POLLUTION_RESOURCES",
+            "BIODIVERSITY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
@@ -2315,6 +2688,9 @@
             "ร่วมทุน"
         ],
         "topic": [
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CORPORATE_GOVERNANCE",
             "RISK_MANAGEMENT"
         ]
     },
@@ -2324,7 +2700,10 @@
             "ประปา"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "HEALTH_SAFETY",
+            "CUSTOMER_RESPONSIBILITY",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2333,7 +2712,8 @@
             "เป้าหมาย"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2344,6 +2724,8 @@
         "topic": [
             "BIODIVERSITY",
             "POLLUTION_RESOURCES",
+            "HEALTH_SAFETY",
+            "CUSTOMER_RESPONSIBILITY",
             "WATER_SECURITY",
             "HEALTH_SAFETY",
             "SUPPLY_CHAIN_ENVIRONMENTAL"
@@ -2369,7 +2751,12 @@
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
             "HEALTH_SAFETY",
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "ANTI_CORRUPTION",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CORPORATE_GOVERNANCE",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2380,7 +2767,12 @@
             "เปิดเผยข้อมูล"
         ],
         "topic": [
-            "CORPORATE_GOVERNANCE"
+            "CUSTOMER_RESPONSIBILITY",
+            "ANTI_CORRUPTION",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "TAX_TRANSPARENCY"
         ]
     },
     {
@@ -2391,7 +2783,8 @@
             "การเปลี่ยนแปลง"
         ],
         "topic": [
-            "RISK_MANAGEMENT"
+            "RISK_MANAGEMENT",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2400,6 +2793,9 @@
             "verification"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "ANTI_CORRUPTION",
+            "RISK_MANAGEMENT",
             "CUSTOMER_RESPONSIBILITY",
             "CORPORATE_GOVERNANCE"
         ]
@@ -2410,18 +2806,23 @@
             "wait time"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY",
             "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
-        "keyword": "WARANTY",
+        "keyword": "WARRANTY",
         "synonym": [
             "การันตี",
             "รับประกัน",
             "warranty"
         ],
         "topic": [
-            "CUSTOMER_RESPONSIBILITY"
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2431,7 +2832,12 @@
             "มูลฝอย"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "WATER_SECURITY",
+            "BIODIVERSITY",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2442,7 +2848,10 @@
         ],
         "topic": [
             "CLIMATE_CHANGE",
-            "POLLUTION_RESOURCES"
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "POLLUTION_RESOURCES",
+            "CORPORATE_GOVERNANCE"
         ]
     },
     {
@@ -2455,7 +2864,12 @@
             "waste management"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "HEALTH_SAFETY",
+            "CLIMATE_CHANGE",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "POLLUTION_RESOURCES",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2466,7 +2880,10 @@
         ],
         "topic": [
             "POLLUTION_RESOURCES",
-            "SUPPLY_CHAIN_ENVIRONMENTAL"
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "HEALTH_SAFETY",
+            "CLIMATE_CHANGE",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2476,7 +2893,10 @@
         ],
         "topic": [
             "BIODIVERSITY",
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "HEALTH_SAFETY",
+            "HUMAN_RIGHTS_COMMUNITY"
         ]
     },
     {
@@ -2486,6 +2906,9 @@
             "น้ำไหลผ่าน"
         ],
         "topic": [
+            "BIODIVERSITY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY"
         ]
     },
@@ -2495,7 +2918,9 @@
             "forecast น้ำ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL"
         ]
     },
     {
@@ -2505,6 +2930,8 @@
             "ระดับน้ำ"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY"
         ]
     },
@@ -2514,7 +2941,11 @@
             "จัดการน้ำ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "RISK_MANAGEMENT",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "POLLUTION_RESOURCES",
+            "WATER_SECURITY",
+            "BIODIVERSITY"
         ]
     },
     {
@@ -2523,7 +2954,11 @@
             "แหล่งน้ำ"
         ],
         "topic": [
-            "WATER_SECURITY"
+            "WATER_SECURITY",
+            "RISK_MANAGEMENT",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "BIODIVERSITY"
         ]
     },
     {
@@ -2533,6 +2968,9 @@
             "เก็บน้ำ"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY"
         ]
     },
@@ -2544,6 +2982,9 @@
             "น้ำที่ผ่านการบำบัด"
         ],
         "topic": [
+            "HEALTH_SAFETY",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
             "WATER_SECURITY"
         ]
     },
@@ -2558,7 +2999,9 @@
         "topic": [
             "CUSTOMER_RESPONSIBILITY",
             "HEALTH_SAFETY",
-            "LABOR_STANDARD"
+            "LABOR_STANDARD",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "SUPPLY_CHAIN_SOCIAL"
         ]
     },
     {
@@ -2567,6 +3010,8 @@
             "ความเป็นอยู่"
         ],
         "topic": [
+            "CUSTOMER_RESPONSIBILITY",
+            "HEALTH_SAFETY",
             "HUMAN_RIGHTS_COMMUNITY",
             "LABOR_STANDARD",
             "SUPPLY_CHAIN_SOCIAL"
@@ -2578,6 +3023,10 @@
             "สัตว์ป่า"
         ],
         "topic": [
+            "RISK_MANAGEMENT",
+            "HEALTH_SAFETY",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "HUMAN_RIGHTS_COMMUNITY",
             "BIODIVERSITY"
         ]
     },
@@ -2589,7 +3038,11 @@
             "Wind"
         ],
         "topic": [
-            "CLIMATE_CHANGE"
+            "CLIMATE_CHANGE",
+            "CORPORATE_GOVERNANCE",
+            "POLLUTION_RESOURCES",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "RISK_MANAGEMENT"
         ]
     },
     {
@@ -2598,16 +3051,24 @@
             "win win"
         ],
         "topic": [
-            "SUPPLY_CHAIN_SOCIAL"
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
+            "CUSTOMER_RESPONSIBILITY"
         ]
     },
     {
-        "keyword": "WORKEPLACE_ISSUE",
+        "keyword": "WORKPLACE_ISSUE",
         "synonym": [
             "ปัญหาการทำงาน"
         ],
         "topic": [
             "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
             "LABOR_STANDARD"
         ]
     },
@@ -2619,6 +3080,10 @@
         ],
         "topic": [
             "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
             "LABOR_STANDARD"
         ]
     },
@@ -2630,6 +3095,10 @@
         ],
         "topic": [
             "HEALTH_SAFETY",
+            "RISK_MANAGEMENT",
+            "HUMAN_RIGHTS_COMMUNITY",
+            "CORPORATE_GOVERNANCE",
+            "SUPPLY_CHAIN_SOCIAL",
             "LABOR_STANDARD"
         ]
     },
@@ -2639,7 +3108,12 @@
             "zero waste"
         ],
         "topic": [
-            "POLLUTION_RESOURCES"
+            "POLLUTION_RESOURCES",
+            "CLIMATE_CHANGE",
+            "SUPPLY_CHAIN_ENVIRONMENTAL",
+            "BIODIVERSITY",
+            "WATER_SECURITY",
+            "RISK_MANAGEMENT"
         ]
     }
 ]
