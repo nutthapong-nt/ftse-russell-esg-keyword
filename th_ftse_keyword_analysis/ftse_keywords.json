@@ -2191,7 +2191,6 @@
             "ลดตัวพลาสติก"
         ],
         "topic": [
-            "POLLUTION_RESOURCES",
             "BIODIVERSITY",
             "CLIMATE_CHANGE",
             "POLLUTION_RESOURCES"
@@ -2333,7 +2332,7 @@
         ]
     },
     {
-        "keyword": "RISK_ASSETMENT",
+        "keyword": "RISK_ASSESSMENT",
         "synonym": [
             "ประเมินความเสี่ยง"
         ],
@@ -2724,7 +2723,6 @@
         "topic": [
             "BIODIVERSITY",
             "POLLUTION_RESOURCES",
-            "HEALTH_SAFETY",
             "CUSTOMER_RESPONSIBILITY",
             "WATER_SECURITY",
             "HEALTH_SAFETY",
@@ -2860,7 +2858,6 @@
             "การบริหารจัดการขยะ",
             "จัดการขยะ",
             "กำจัดขยะ",
-            "west management",
             "waste management"
         ],
         "topic": [
